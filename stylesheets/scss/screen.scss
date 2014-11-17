@@ -1,0 +1,28 @@
+/*-------------------------------------------------------*/
+/*                                                       */
+/* A.S.ADVENTURE                       									 */
+/*                                                       */
+/* Project: FOLDER JUNI 2014                             */
+/* Author: KRISTOF HERMANS                               */
+/* Language: SASS                                        */
+/*                                                       */
+/*-------------------------------------------------------*/
+
+/* BOWER COMPONENTS */
+@import "../../bower_components/modularized-normalize-scss/_normalize";
+
+/* RESET */
+
+@import "partials/reset.scss";
+
+/* GRID */
+
+@import "partials/grid.scss";
+
+/* MODULES */
+
+@import "partials/modules.scss";
+
+/* THEME */
+
+@import "partials/theme.scss";

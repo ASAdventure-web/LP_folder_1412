@@ -1,0 +1,185 @@
+// GRID
+
+// VARIABLES
+
+
+$numCols: 4;
+$numGutters: $numCols - 1;
+
+// Width in pixels
+$gutter: 30px;
+$maxWidth: 1170px;
+
+// FUNCTIONS
+
+// Calculating the column width
+@function colWidth($numCols, $numGutters, $gutter, $maxWidth){
+	@return ($maxWidth - ($numGutters * $gutter)) / $numCols;
+}
+
+// Calculating breakpoints
+@function breakPoint1($numCols, $numGutters, $gutter, $maxWidth){
+	$colWidth: colWidth($numCols, $numGutters, $gutter, $maxWidth);
+	$breakPoint1: ((($colWidth * ($numCols - 1) + ($gutter * ($numGutters - 1))) / 9) * 10);
+	@return $breakPoint1;
+}
+
+@function breakPoint2($numCols, $numGutters, $gutter, $maxWidth){
+	$colWidth: colWidth($numCols, $numGutters, $gutter, $maxWidth);
+	$breakPoint2: ((($colWidth * ($numCols - 2) + ($gutter * ($numGutters - 2))) / 9) * 10);
+	@return $breakPoint2;
+}
+
+@function breakPoint3($numCols, $numGutters, $gutter, $maxWidth){
+	$colWidth: colWidth($numCols, $numGutters, $gutter, $maxWidth);
+	$breakPoint3: ((($colWidth * ($numCols - 3) + ($gutter * ($numGutters - 3))) / 9) * 10);
+	@return $breakPoint3;
+}
+
+@function breakPoint4($numCols, $numGutters, $gutter, $maxWidth){
+	$colWidth: colWidth($numCols, $numGutters, $gutter, $maxWidth);
+	$breakPoint4: ((($colWidth * ($numCols - 4) + ($gutter * ($numGutters - 4))) / 9) * 10);
+	@return $breakPoint4;
+}
+
+// Breakpoints
+$breakPoint1: breakPoint1($numCols, $numGutters, $gutter, $maxWidth);
+$breakPoint2: breakPoint2($numCols, $numGutters, $gutter, $maxWidth);
+$breakPoint3: breakPoint3($numCols, $numGutters, $gutter, $maxWidth);
+$breakPoint4: breakPoint4($numCols, $numGutters, $gutter, $maxWidth);
+
+// ACTUAL GRID
+
+html, body{
+	width: 100%;
+}
+
+#folderWrapper{
+	margin: -30px auto 0;
+	max-width: $maxWidth;
+	padding-bottom: 50px;
+	width: 100%;
+
+	@media only screen and(max-width: $breakPoint2){
+		width: 99%;
+	}
+
+	.clearfix:after{
+		clear: both;
+		content:"";
+		display: table;
+	}
+
+	.gridSizer{
+		width: percentage((colWidth($numCols, $numGutters, $gutter, $maxWidth) / $maxWidth));
+
+		@media only screen and(max-width: $breakPoint1){
+			width: percentage( colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint1) / $breakPoint1);
+		}
+
+		@media only screen and(max-width: $breakPoint2){
+			width: percentage( colWidth(($numCols - 2), ($numGutters - 2), $gutter, $breakPoint2) / $breakPoint2);
+		}
+
+		@media only screen and(max-width: $breakPoint3){
+			width: percentage( colWidth(($numCols - 3), ($numGutters - 3), $gutter, $breakPoint3) / $breakPoint3);
+		}
+	}
+
+	.gutterSizer{
+		width: percentage($gutter / $maxWidth);
+
+		@media only screen and(max-width: $breakPoint1){
+			width: percentage($gutter / $breakPoint1);
+		}
+
+		@media only screen and(max-width: $breakPoint2){
+			width: percentage($gutter / $breakPoint2);
+		}
+
+		@media only screen and(max-width: $breakPoint3){
+			width: percentage($gutter / $breakPoint3);
+		}
+	}
+}
+
+.folderHeader{
+	@media only screen and(max-width: $breakPoint3){
+		display: none;
+	}
+
+	#navFix{
+		position: absolute;
+		bottom: 137px;
+	}
+}
+
+.folderContent{
+	margin: 0 auto;
+	width: 100%;
+}
+
+// FOLDERITEM
+
+.folderItem{
+	border-collapse: collapse;
+	float: left;
+	margin-right: percentage($gutter / $maxWidth);
+	margin-bottom: 30px;
+	width: percentage( colWidth($numCols, $numGutters, $gutter, $maxWidth) / $maxWidth);
+
+	.product{
+		position: relative;
+		width: 100%;
+	}
+
+	img{
+		max-width: 100%;
+	}
+
+	.brand_logo{
+		max-width: 45%;
+		position: absolute;
+		top: 10px;
+		left: 16px;
+	}
+
+	@media only screen and(max-width: $breakPoint1){
+		margin-right: percentage($gutter / $breakPoint1);
+		width: percentage( colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint1) / $breakPoint1);
+	}
+
+	@media only screen and(max-width: $breakPoint2){
+		margin-right: percentage($gutter / $breakPoint2);
+		width: percentage( colWidth(($numCols - 2), ($numGutters - 2), $gutter, $breakPoint2) / $breakPoint2);
+	}
+
+	@media only screen and(max-width: $breakPoint3){
+		margin-right: percentage($gutter / $breakPoint3);
+		width: percentage( colWidth(($numCols - 3), ($numGutters - 3), $gutter, $breakPoint3) / $breakPoint3);
+	}
+}
+
+.folderItem:nth-child( #{$numCols}n+#{$numCols} ){
+	margin-right: 0;
+}
+
+.twoCol{
+	width: percentage( (colWidth($numCols, $numGutters, $gutter, $maxWidth) * 2 + $gutter) / $maxWidth);
+}
+
+// PRICETAG
+
+.priceTag{
+	position: absolute;
+		bottom: 10px;
+		right: 8px;
+}
+
+.priceTag2{
+	position: absolute;
+		bottom: 10px;
+		left: 8px;
+}
+
+
