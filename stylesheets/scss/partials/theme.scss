@@ -276,12 +276,24 @@ a{
 	}
 }
 
+.dropshadow{
+	box-shadow: 0 0 2px #b4b4b4, 
+							0 2px 4px #b4b4b4;
+	box-shadow: 0 0 2px rgba(0,0,0,0.20), 
+							0 2px 4px rgba(0,0,0,0.10);
+
+	&:hover{
+		box-shadow: 0 0 2px #b4b4b4, 
+								0 3px 6px #C4C4C4;
+		box-shadow: 0 0 2px rgba(0,0,0,0.20), 
+								0 4px 8px rgba(0,0,0,0.10);
+	}
+}
+
 // FOLDERITEM
 .folderItem{
 	//background: url(../../images/lightpaperfibers.jpg);
 	background: #ffffff;
-	box-shadow: 0 0 10px #b4b4b4;
-	box-shadow: 0 0 10px rgba(0,0,0,0.15);
 	color: $darkGray;
 	font-family: $fontstack1;
 }
@@ -294,15 +306,15 @@ a{
 }
 
 .sfeer, .brand_logo{
-	@media only screen and(max-width: $breakPoint2){
-		display: none !important;
-	}
+	// @media only screen and(max-width: $breakPoint2){
+	// 	display: none !important;
+	// }
 }
 
 .lookbook{
-	@media only screen and(max-width: $breakPoint2){
-		display: none;
-	}
+	// @media only screen and(max-width: $breakPoint2){
+	// 	display: none;
+	// }
 }
 
 .hiddenLook{

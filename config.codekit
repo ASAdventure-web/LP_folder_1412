@@ -2432,6 +2432,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/man_on_bridge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46021,
+		"inputAbbreviatedPath": "\/images\/man_on_bridge.jpg",
+		"outputAbbreviatedPath": "\/images\/man_on_bridge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/producten-min\/ayacucho_apex_jas.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

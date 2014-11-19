@@ -7,14 +7,14 @@ $numCols: 4;
 $numGutters: $numCols - 1;
 
 // Width in pixels
-$gutter: 12px;
+$gutter: 30px;
 $maxWidth: 1170px;
 
 // Width in percentages
 $fullWidth: 100%;
 
 // Height in pixels
-$oneRow: 330px;
+$oneRow: 300px;
 $twoRow: $gutter + ($oneRow * 2);
 $captionHeight: 60px;
 $descriptionHeight: 140px;
@@ -35,36 +35,7 @@ $breakPoint1: 1199px;
 $breakPoint2: 979px;
 $breakPoint3: 767px;
 
-// // Calculating breakpoints
-// @function breakPoint1($numCols, $numGutters, $gutter, $maxWidth){
-// 	$colWidth: colWidth($numCols, $numGutters, $gutter, $maxWidth);
-// 	$breakPoint1: ((($colWidth * ($numCols - 1) + ($gutter * ($numGutters - 1))) / 9) * 10);
-// 	@return $breakPoint1;
-// }
-
-// @function breakPoint2($numCols, $numGutters, $gutter, $maxWidth){
-// 	$colWidth: colWidth($numCols, $numGutters, $gutter, $maxWidth);
-// 	$breakPoint2: ((($colWidth * ($numCols - 2) + ($gutter * ($numGutters - 2))) / 9) * 10);
-// 	@return $breakPoint2;
-// }
-
-// @function breakPoint3($numCols, $numGutters, $gutter, $maxWidth){
-// 	$colWidth: colWidth($numCols, $numGutters, $gutter, $maxWidth);
-// 	$breakPoint3: ((($colWidth * ($numCols - 3) + ($gutter * ($numGutters - 3))) / 9) * 10);
-// 	@return $breakPoint3;
-// }
-
-// @function breakPoint4($numCols, $numGutters, $gutter, $maxWidth){
-// 	$colWidth: colWidth($numCols, $numGutters, $gutter, $maxWidth);
-// 	$breakPoint4: ((($colWidth * ($numCols - 4) + ($gutter * ($numGutters - 4))) / 9) * 10);
-// 	@return $breakPoint4;
-// }
-
-// Breakpoints
-// $breakPoint1: breakPoint1($numCols, $numGutters, $gutter, $maxWidth);
-// $breakPoint2: breakPoint2($numCols, $numGutters, $gutter, $maxWidth);
-// $breakPoint3: breakPoint3($numCols, $numGutters, $gutter, $maxWidth);
-// $breakPoint4: breakPoint4($numCols, $numGutters, $gutter, $maxWidth);
+$mobileWidth: 414px;
 
 // ACTUAL GRID
 
@@ -105,9 +76,13 @@ html, body{
 		width: percentage( colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint2) / $breakPoint2);
 	}
 
-	// @media only screen and(max-width: $breakPoint3){
-	// 	width: percentage( colWidth(($numCols - 3), ($numGutters - 3), $gutter, $breakPoint3) / $breakPoint3);
-	// }
+	@media only screen and(max-width: $breakPoint3){
+		width: percentage( colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint3) / $breakPoint3);
+	}
+
+	@media only screen and(max-width: $mobileWidth){
+		width: percentage( colWidth(($numCols - 2), ($numGutters - 2), $gutter, $mobileWidth) / $mobileWidth);
+	}
 }
 
 .gutterSizer{
@@ -121,9 +96,13 @@ html, body{
 		width: percentage($gutter / $breakPoint2);
 	}
 
-	// @media only screen and(max-width: $breakPoint3){
-	// 	width: percentage($gutter / $breakPoint3);
-	// }
+	@media only screen and(max-width: $breakPoint3){
+		width: percentage($gutter / $breakPoint3);
+	}
+
+	@media only screen and(max-width: $mobileWidth){
+		width: percentage($gutter / $mobileWidth);
+	}
 }
 
 .folderHeader{
@@ -148,13 +127,15 @@ html, body{
 	border-collapse: collapse;
 	display: block;
 	float: left;
-	height: $oneRow;
+	//height: $oneRow;
 	//margin-left: percentage($gutter / $maxWidth);
 	margin-bottom: $gutter;
 	width: percentage( colWidth($numCols, $numGutters, $gutter, $maxWidth) / $maxWidth);
 
 	article{
-		height: percentage(($oneRow - $captionHeight) / $oneRow);
+		float: left;
+		//height: percentage(($oneRow - $captionHeight) / $oneRow);
+		width: 100%;
 	}
 
 	img{
@@ -163,26 +144,21 @@ html, body{
 
 	.product{
 		float: left;
-		height: $fullHeight;
+		//height: $fullHeight;
 		position: relative;
 		width: $fullWidth;
 	}
 
 	.lazy{
 		float: left;
-		height: $fullHeight;
+		//height: $oneRow;
 		max-width: $fullWidth;
-	}
-
-	.hasDescription{
-		height: percentage(($oneRow - $descriptionHeight) / $oneRow);
 	}
 
 	&.twoRow{
 		height: $twoRow;
-
-		.hasDescription{
-			height: percentage(($twoRow - $descriptionHeight) / $twoRow);
+		.lazy{
+			//height: $twoRow;
 		}
 	}
 
@@ -198,9 +174,13 @@ html, body{
 		width: percentage( colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint2) / $breakPoint2);
 	}
 
-	// @media only screen and(max-width: $breakPoint3){
-	// 	width: percentage( colWidth(($numCols - 3), ($numGutters - 3), $gutter, $breakPoint3) / $breakPoint3);
-	// }
+	@media only screen and(max-width: $breakPoint3){
+		width: percentage( colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint3) / $breakPoint3);
+	}
+
+	@media only screen and(max-width: $mobileWidth){
+		width: percentage( colWidth(($numCols - 2), ($numGutters - 2), $gutter, $mobileWidth) / $mobileWidth);
+	}
 }
 
 .twoCol{
@@ -208,6 +188,14 @@ html, body{
 
 	@media only screen and(max-width: $breakPoint2){
 		width: percentage( (colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint2) / $breakPoint2) * 2) + percentage($gutter / $breakPoint2);
+	}
+
+	@media only screen and(max-width: $breakPoint3){
+		width: percentage( (colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint3) / $breakPoint3) * 2) + percentage($gutter / $breakPoint3);
+	}
+
+	@media only screen and(max-width: $mobileWidth){
+		width: percentage( (colWidth(($numCols - 2), ($numGutters - 2), $gutter, $mobileWidth) / $mobileWidth) * 2) + percentage($gutter / $breakPoint3);
 	}
 }
 
@@ -228,9 +216,13 @@ html, body{
 // DESCRIPTION
 .description{
 	float: left;
-	max-height: $descriptionHeight - 14px;
+	height: $captionHeight;
 	padding: 0 .5em;
 	width: 100%;
+
+	&.hasDescription{
+		height: $descriptionHeight;
+	}
 
 	.title_block{
 		margin-bottom: .8em;
