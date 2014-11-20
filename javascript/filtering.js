@@ -92,7 +92,7 @@
         onLayout();
       });
     } else if (testParam === gadgets) {
-      $(".wintersport, .fashion, .junior, .outdoor, .bike, .christmas, .lookbook, .sfeer").hide();
+      $(".wintersport, .fashion, .junior, .outdoor, .bike, .christmas, .lookbook").hide();
       $(".gadgets").show();
       $("#gadgets").addClass("active");
       window.location.hash = navFix;

@@ -2,7 +2,7 @@
 
 $(function() {
   $('img.lazy').lazyload({
-    effect: 'fadeIn',
+    //effect: 'fadeIn',
     threshold : 100,
     failure_limit : 3,
     //skip_invisible : false,
