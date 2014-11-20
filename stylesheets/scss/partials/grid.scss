@@ -48,7 +48,8 @@ html, body{
 ======================================= */
 
 #folderWrapper{
-	margin: -30px auto 0;
+	//margin: -30px auto 0;
+	margin: 10px auto 0;
 	max-width: $maxWidth;
 	padding-bottom: 50px;
 	width: $fullWidth;
@@ -139,6 +140,7 @@ html, body{
 	}
 
 	img{
+		//height: auto;
 		width: 100%;
 	}
 
