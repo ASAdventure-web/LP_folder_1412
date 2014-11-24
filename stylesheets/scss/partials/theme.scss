@@ -103,7 +103,8 @@ a{
 // FOLDERHEADER
 .folderHeader{
   background: url(http://static1.asadventure.com/includes/landingpage/folder/folder_december/images/header.jpg) no-repeat right;
-  background-size: contain; 
+  background-size: contain;
+  box-shadow: 0 20px 16px -10px rgba(0,0,0,0.3); 
   height: 420px;
 	line-height: .5;
   overflow: hidden;
