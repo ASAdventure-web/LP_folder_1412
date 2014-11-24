@@ -2047,6 +2047,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/christmas-special.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37144,
+		"inputAbbreviatedPath": "\/images\/christmas-special.png",
+		"outputAbbreviatedPath": "\/images\/christmas-special.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/header.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2065,6 +2076,28 @@
 		"initialSize": 1477,
 		"inputAbbreviatedPath": "\/images\/lightpaperfibers.jpg",
 		"outputAbbreviatedPath": "\/images\/lightpaperfibers.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logo_x_pattern.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 964,
+		"inputAbbreviatedPath": "\/images\/logo_x_pattern.png",
+		"outputAbbreviatedPath": "\/images\/logo_x_pattern.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/medium-snow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41772,
+		"inputAbbreviatedPath": "\/images\/medium-snow.png",
+		"outputAbbreviatedPath": "\/images\/medium-snow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2113,6 +2146,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ribbon-bottom-right.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30584,
+		"inputAbbreviatedPath": "\/images\/ribbon-bottom-right.png",
+		"outputAbbreviatedPath": "\/images\/ribbon-bottom-right.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ribbon-top-left.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13610,
+		"inputAbbreviatedPath": "\/images\/ribbon-top-left.png",
+		"outputAbbreviatedPath": "\/images\/ribbon-top-left.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/sfeer\/man_2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2142,6 +2197,17 @@
 		"initialSize": 44195,
 		"inputAbbreviatedPath": "\/images\/sfeer\/woman_in_frame.jpg",
 		"outputAbbreviatedPath": "\/images\/sfeer\/woman_in_frame.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/small-snow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53987,
+		"inputAbbreviatedPath": "\/images\/small-snow.png",
+		"outputAbbreviatedPath": "\/images\/small-snow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

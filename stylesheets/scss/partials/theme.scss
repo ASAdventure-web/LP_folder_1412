@@ -37,9 +37,21 @@ $fontstack2: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucid
   font-weight:  700;
 }
 
+// ANIMATIONS
+
+@keyframes letItSnow1{
+  0%    {top: 0px;}
+  100%  {top: 380px;}
+}
+
+@keyframes letItSnow2{
+  0%    {top: -380px;}
+  100%  {top: 0px;}
+}
+
 //GENERAL
 body{
-	//background: url(../../images/background-pattern.jpg);
+	//background: url(http://static1.asadventure.com/includes/landingpage/folder/folder_december/images/logo_x_pattern.png);
 }
 
 /* =======================================
@@ -90,68 +102,126 @@ a{
 
 // FOLDERHEADER
 .folderHeader{
+  background: url(http://static1.asadventure.com/includes/landingpage/folder/folder_december/images/header.jpg) no-repeat right;
+  background-size: contain; 
+  height: 420px;
 	line-height: .5;
+  overflow: hidden;
 	position: relative;
 	z-index: 10;
 
-	@media only screen and (max-width: 767px){
-		display: none !important;
-	}
+  &:before{
+    background: url(http://static1.asadventure.com/includes/landingpage/folder/folder_december/images/ribbon-top-left.png);
+    content: "";
+    display: block;
+    height: 246px;
+    position: absolute;
+      top: -60px;
+      left: -60px;
+    width: 246px;
+    z-index: 20;
+  }
 
-	.boxShadow{
-		box-shadow: 0 17px 10px -15px #cccccc;
-		box-shadow: 0 17px 10px -15px rgba(0,0,0,0.2);
-	}
+  &:after{
+    background: url(http://static1.asadventure.com/includes/landingpage/folder/folder_december/images/ribbon-bottom-right.png);
+    content: "";
+    display: block;
+    height: 245px;
+    position: absolute;
+      bottom: -70px;
+      right: -70px;
+    width: 244px;
+    z-index: 20;
+  }
 
-	.topBar, .bottomBar{
-		width: 100%;
-	}
+  .christmas-special{
+    background: url(http://static1.asadventure.com/includes/landingpage/folder/folder_december/images/christmas-special.png);
+    color: #ffffff;
+    font-size: 45px;
+    height: 240px;
+    line-height: 50px;
+    padding: 70px 13px;
+    position: absolute;
+      top: 100px;
+      left: 120px;
+    text-align: center;
+    text-shadow:  2px 2px 2px rgba(0,0,0,0.5),
+                  0 0 30px rgba(0,0,0,0.9);
+    width: 537px;
+    z-index: 15;
+  }
 
-	.leftBar, .centerBar, .rightBar{
-		float: left;
-	}
+  .animated-area{
+    height: 380px;
+    overflow: hidden;
+    position: absolute;
+      top: 20px;
+      left: 20px;
+    width: percentage(1130/1170);
+  }
 
-	.leftBar, .rightBar{
-		width: percentage(265px / 1170px);
-	}
+  .small-snow{
+    background: url(http://static1.asadventure.com/includes/landingpage/folder/folder_december/images/small-snow.png) no-repeat center center;
+    background-size: contain;
+    height: 100%;
+    position: absolute;
+      top: 0;
+      left: 0;
+    width: 100%;
+    z-index: 11;
 
-	.centerBar{
-		width: percentage(640px / 1170px);
-	}
+    &.part-1{
+      animation: letItSnow1 48s infinite;
+      animation-timing-function: linear;
+    }
 
-	img{
-		max-width: 100%;
-	}
+    &.part-2{
+      animation: letItSnow2 48s infinite;
+      animation-timing-function: linear;
+    }
+  }
 
-	.videoPlaceHolder:hover{
-		cursor: pointer;
-	}
+  .medium-snow{
+    background: url(http://static1.asadventure.com/includes/landingpage/folder/folder_december/images/medium-snow.png) no-repeat center center;
+    background-size: contain;
+    height: 100%;
+    position: absolute;
+      top: 0;
+      left: 0;
+    width: 100%;
+    z-index: 12;
 
-	.videoWrapper {
-		box-shadow: inset 3px 3px 3px $darkGray;
-		box-shadow: inset 3px 3px 3px rgba(0,0,0,0.2);
-		position: relative;
-		padding-bottom: 52.25%; /* 16:9 */
-		padding-top: 25px;
-		height: 0;
+    &.part-1{
+      animation: letItSnow1 24s infinite;
+      animation-timing-function: linear;
+    }
 
-		@media only screen and (max-width: 1199px){
-			padding-bottom: 51.25%; /* 16:9 */
-		}
+    &.part-2{
+      animation: letItSnow2 24s infinite;
+      animation-timing-function: linear;
+    }
+  }
 
-		@media only screen and (max-width: 979px){
-			padding-bottom: 50.10%; /* 16:9 */
-		}
-	}
+  .large-snow{
+    background: url(http://static1.asadventure.com/includes/landingpage/folder/folder_december/images/large-snow.png) no-repeat center center;
+    background-size: contain;
+    height: 100%;
+    position: absolute;
+      top: 0;
+      left: 0;
+    width: 100%;
+    z-index: 13;
 
-	.videoWrapper iframe {
-		background: #000000;
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-	}
+    &.part-1{
+      animation: letItSnow1 12s infinite;
+      animation-timing-function: linear;
+    }
+
+    &.part-2{
+      animation: letItSnow2 12s infinite;
+      animation-timing-function: linear;
+    }
+  }
 }
 
 .folderHeaderMobi, .videoPlaceHolderMobile{
@@ -165,7 +235,7 @@ a{
 // FOLDERNAV
 .folderNav{
 	margin: 15px auto 30px;
-	font-family: 'Proxima Nova Cn Rg';
+	font-family: "Proxima Nova Cn Rg";
 
 	ul{
 		padding: 0;
@@ -303,7 +373,7 @@ a{
 
 // FOLDERITEM
 .folderItem{
-	//background: url(../../images/lightpaperfibers.jpg);
+	//background: url(http://static1.asadventure.com/includes/landingpage/folder/folder_december/images/lightpaperfibers.jpg);
 	background: #ffffff;
 	color: $darkGray;
 	font-family: $fontstack1;
@@ -416,7 +486,7 @@ a{
 	text-overflow:ellipsis;
 		
 	h3, h3 a{
-		font-family: 'Proxima Nova Cn Rg';
+		font-family: "Proxima Nova Cn Rg";
 		font-size: 1.1em;
 		line-height: 1em;
 		text-transform: uppercase;
