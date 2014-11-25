@@ -2069,6 +2069,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/large-snow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35597,
+		"inputAbbreviatedPath": "\/images\/large-snow.png",
+		"outputAbbreviatedPath": "\/images\/large-snow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/light.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45812,
+		"inputAbbreviatedPath": "\/images\/light.png",
+		"outputAbbreviatedPath": "\/images\/light.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/lightpaperfibers.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2095,9 +2117,42 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 41772,
+		"initialSize": 42477,
 		"inputAbbreviatedPath": "\/images\/medium-snow.png",
 		"outputAbbreviatedPath": "\/images\/medium-snow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/barts_claire_beanie.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9597,
+		"inputAbbreviatedPath": "\/images\/producten\/barts_claire_beanie.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/barts_claire_beanie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/barts_claire_sjaal.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9838,
+		"inputAbbreviatedPath": "\/images\/producten\/barts_claire_sjaal.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/barts_claire_sjaal.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/barts_claire_wanten.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9798,
+		"inputAbbreviatedPath": "\/images\/producten\/barts_claire_wanten.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/barts_claire_wanten.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2109,6 +2164,17 @@
 		"initialSize": 24969,
 		"inputAbbreviatedPath": "\/images\/producten\/brunotti_loydasa_skibroek.jpg",
 		"outputAbbreviatedPath": "\/images\/producten\/brunotti_loydasa_skibroek.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/buff_pied_de_poule.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13725,
+		"inputAbbreviatedPath": "\/images\/producten\/buff_pied_de_poule.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/buff_pied_de_poule.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2205,7 +2271,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 53987,
+		"initialSize": 55620,
 		"inputAbbreviatedPath": "\/images\/small-snow.png",
 		"outputAbbreviatedPath": "\/images\/small-snow.png",
 		"outputPathIsOutsideProject": 0,

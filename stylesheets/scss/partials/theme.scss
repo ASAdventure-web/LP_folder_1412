@@ -41,12 +41,24 @@ $fontstack2: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucid
 
 @keyframes letItSnow1{
   0%    {top: 0px;}
-  100%  {top: 380px;}
+  // 25%   {left: 10px;}
+  // 50%   {left: 0;}
+  // 75%   {right: 10px;}
+  100%  {top: 380px; left: 0;}
 }
 
 @keyframes letItSnow2{
   0%    {top: -380px;}
-  100%  {top: 0px;}
+  // 25%   {left: 10px;}
+  // 50%   {left: 0;}
+  // 75%   {right: 10px;}
+  100%  {top: 0px; left: 0;}
+}
+
+@keyframes animatedLight{
+  0%    {opacity: .6;}
+  50%   {opacity: 1;}
+  100%  {opacity: .6;}
 }
 
 //GENERAL
@@ -104,7 +116,7 @@ a{
 .folderHeader{
   background: url(http://static1.asadventure.com/includes/landingpage/folder/folder_december/images/header.jpg) no-repeat right;
   background-size: contain;
-  box-shadow: 0 20px 16px -10px rgba(0,0,0,0.3); 
+  box-shadow: 0 20px 16px -10px rgba(0,0,0,0.5); 
   height: 420px;
 	line-height: .5;
   overflow: hidden;
@@ -159,6 +171,19 @@ a{
       top: 20px;
       left: 20px;
     width: percentage(1130/1170);
+  }
+
+  .animated-light{
+    animation: animatedLight 5s infinite;
+    animation-timing-function: linear;
+    background: url(http://static1.asadventure.com/includes/landingpage/folder/folder_december/images/light.png) no-repeat center center;
+    background-size: contain;
+    height: 158px;
+    position: absolute;
+      top: 32px;
+      left: 722px;
+    width: 155px;
+    z-index: 11;
   }
 
   .small-snow{
@@ -405,61 +430,122 @@ a{
 
 // PRICETAG
 
-.priceTag, .priceTag2{
-	color: $darkGray;
+.pricetag{
+	color: #3C3C3B;
+  display: inline-block;
 	font-family: $fontstack1;
+  padding: 5px;
+  position: absolute;
+    bottom: 10px;
+    right: 10px;
 	text-align: center;
 	text-transform: uppercase;
+
+  &.red, &.green{
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    color: #ffffff;
+  }
+
+  &.red{
+    background: #AC1315;
+  }
+
+  &.green{
+    background: #597438;
+  }
+
+  &.right-5{
+    right: 5%;
+  }
+
+  &.right-10{
+    right: 10%;
+  }
+
+  &.right-15{
+    right: 15%;
+  }
+
+  &.right-20{
+    right: 20%;
+  }
+
+  &.right-25{
+    right: 25%;
+  }
+
+  .inner-pricetag{
+    border: 1px dotted #ffffff;
+    padding: 5px;
+
+    hr{
+      background: #efefef;
+      border: 0;
+      height: 1px;
+      margin: 2px auto 8px;
+      width: 90%;
+    }
+  }
 
 	@media only screen and(max-width: 979px){
 		font-size: .7em;
 	}
 
-	.priceTag_top, .priceTag_bottom{
-		padding: .45em .5em .15em;
-	}
+	// .priceTag_top, .priceTag_bottom{
+	// 	padding: .45em .5em .15em;
+	// }
 
-	.priceTag_top{
-		background: $darkGray;
-		border-bottom: 1px solid #dcdcdc;
-		border-bottom: 1px solid rgba(255,255,255,0.4);
-		color: #fcfcfc;
-		font-size: .7em;
-	}
+	// .priceTag_top{
+	// 	background: $darkGray;
+	// 	border-bottom: 1px solid #dcdcdc;
+	// 	border-bottom: 1px solid rgba(255,255,255,0.4);
+	// 	color: #fcfcfc;
+	// 	font-size: .7em;
+	// }
 
-	.priceTag_bottom{
-		box-shadow: inset 0 0 15px #454545;
-		box-shadow: inset 0 0 15px rgba(0,0,0,0.5);
-		color: #fcfcfc;
-		text-shadow: 1px 1px 0 #454545;
-		text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
-		padding-bottom: .3em;
+	// .priceTag_bottom{
+	// 	box-shadow: inset 0 0 15px #454545;
+	// 	box-shadow: inset 0 0 15px rgba(0,0,0,0.5);
+	// 	color: #fcfcfc;
+	// 	text-shadow: 1px 1px 0 #454545;
+	// 	text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
+	// 	padding-bottom: .3em;
 
-		@media only screen and(max-width: $breakPoint2){
-			font-size: 1.3em;
-		}
-	}
+	// 	@media only screen and(max-width: $breakPoint2){
+	// 		font-size: 1.3em;
+	// 	}
+	// }
 
-	.largeText{
+	.large-text{
 		color: #fcfcfc;
 		font-size: 1.3em;
 		font-weight: bold;
+    line-height: 1em;
+    margin-bottom: 0;
 
 		@media only screen and(max-width: $breakPoint2){
 			font-size: 1.3em;
 		}
 	}
 
-	.initialPrice{
+  .small-text{
+    font-size: .7em;
+    line-height: 1em;
+  }
+
+	.initial-price{
 		color: #fcfcfc;
-		margin-top: 4px;
+    font-size: .7em;
+    line-height: 1.5em;
+    margin-top: 4px; 
 		text-decoration: line-through;
 	}
 
-	.actualPrice{
+	.actual-price{
 		font-size: 1.8em;
 		font-weight: bold;
-		line-height: .8em;
+		line-height: .6em;
+    margin-top: 4px;
 	}
 
 	.currency{
@@ -509,7 +595,7 @@ a{
 			line-height: 1.3em;
 		}
 
-		.end_block{
+		.end-block{
 			background: $darkGray;
 		}
 	}
