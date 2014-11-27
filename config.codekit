@@ -2179,6 +2179,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/producten\/eider_mondovi_jas.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24537,
+		"inputAbbreviatedPath": "\/images\/producten\/eider_mondovi_jas.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/eider_mondovi_jas.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/producten\/joy_happiness_handwarmer.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
