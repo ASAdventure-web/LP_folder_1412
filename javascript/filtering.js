@@ -1,20 +1,20 @@
 // FILTERING SCRIPT
-    var schoenen = "?schoenen";
+    var wintersport = "?wintersport";
     var fashion = "?fashion";
     var junior = "?junior";
     var outdoor = "?outdoor";
     var bike = "?bike";
-    var jackWolfskin = "?jackWolfskin";
+    var gadgets = "?gadgets";
     var lookbook = "?lookbook";
-    var energie = "?energie";
+    var christmas = "?christmas";
 
     var navFix = "navFix";
 
     var testArray = location.search.split("&");
     var testParam = testArray[0];
 
-    var paramArray = ["?schoenen", "?fashion", "?junior", "?outdoor", "?bike", "?jackWolfskin", "?energie"];
-    var classArray = [".schoenen", ".fashion", ".junior", ".outdoor", ".bike", ".jackWolfskin", ".energie"];
+    var paramArray = ["?wintersport", "?fashion", "?junior", "?outdoor", "?bike", "?gadgets", "?christmas"];
+    var classArray = [".wintersport", ".fashion", ".junior", ".outdoor", ".bike", ".gadgets", ".christmas"];
 
     // // URL PARAMETER
     // function filter(paramArray, classArray){
@@ -38,11 +38,11 @@
 
     // filter();
 
-    if (testParam === schoenen) {
-      $(".fashion, .junior, .outdoor, .bike, .jackWolfskin, .energie, .lookbook").hide();
-      $(".schoenen").show();
+    if (testParam === wintersport) {
+      $(".fashion, .junior, .outdoor, .bike, .gadgets, .christmas, .lookbook").hide();
+      $(".wintersport").show();
       
-      $("li#schoenen").addClass("active");
+      $("li#wintersport").addClass("active");
       window.location.hash = navFix;
 
       imagesLoaded(container, function() {
@@ -50,7 +50,7 @@
         onLayout();
       });
     } else if (testParam === fashion) {
-      $(".schoenen, .junior, .outdoor, .bike, .jackWolfskin, .energie, .lookbook").hide();
+      $(".wintersport, .junior, .outdoor, .bike, .gadgets, .christmas, .lookbook").hide();
       $(".fashion").show();
       
       $("li#fashion").addClass("active");
@@ -61,7 +61,7 @@
         onLayout();
       });
     } else if (testParam === junior) {
-      $(".schoenen, .fashion, .outdoor, .bike, .jackWolfskin, .energie, .lookbook").hide();
+      $(".wintersport, .fashion, .outdoor, .bike, .gadgets, .christmas, .lookbook").hide();
       $(".junior").show();
       
       $("li#junior").addClass("active");
@@ -72,7 +72,7 @@
         onLayout();
       });
     } else if (testParam === outdoor) {
-      $(".schoenen, .fashion, .junior, .bike, .jackWolfskin, .energie, .lookbook").hide();
+      $(".wintersport, .fashion, .junior, .bike, .gadgets, .christmas, .lookbook").hide();
       $(".outdoor").show();
       $("li#outdoor").addClass("active");
       window.location.hash = navFix;
@@ -82,7 +82,7 @@
         onLayout();
       });
     } else if (testParam === bike) {
-      $(".schoenen, .fashion, .junior, .outdoor, .jackWolfskin, .energie, .lookbook").hide();
+      $(".wintersport, .fashion, .junior, .outdoor, .gadgets, .christmas, .lookbook").hide();
       $(".bike").show();
       $("#bike").addClass("active");
       window.location.hash = navFix;
@@ -91,10 +91,10 @@
         msnry.layout();
         onLayout();
       });
-    } else if (testParam === jackWolfskin) {
-      $(".schoenen, .fashion, .junior, .outdoor, .bike, .energie, .lookbook, .sfeer").hide();
-      $(".jackWolfskin").show();
-      $("#jackWolfskin").addClass("active");
+    } else if (testParam === gadgets) {
+      $(".wintersport, .fashion, .junior, .outdoor, .bike, .christmas, .lookbook").hide();
+      $(".gadgets").show();
+      $("#gadgets").addClass("active");
       window.location.hash = navFix;
 
       imagesLoaded(container, function() {
@@ -102,7 +102,7 @@
         onLayout();
       });
     } else if (testParam === lookbook) {
-      $(".schoenen, .fashion, .junior, .outdoor, .bike, .energie, .jackWolfskin, .sfeer").hide();
+      $(".wintersport, .fashion, .junior, .outdoor, .bike, .christmas, .gadgets, .sfeer").hide();
       $(".lookbook").show();
       $("#lookbook").addClass("active");
       window.location.hash = navFix;
@@ -111,11 +111,11 @@
         msnry.layout();
         onLayout();
       });
-    } else if (testParam === energie) {
-      $(".schoenen, .fashion, .junior, .outdoor, .bike, .jackWolfskin, .lookbook").hide();
-      $(".energie").show();
+    } else if (testParam === christmas) {
+      $(".wintersport, .fashion, .junior, .outdoor, .bike, .gadgets, .lookbook").hide();
+      $(".christmas").show();
       
-      $("#energie").addClass("active");
+      $("#christmas").addClass("active");
       window.location.hash = navFix;
 
       imagesLoaded(container, function() {
@@ -123,7 +123,7 @@
         onLayout();
       });
     } else {
-      $(".schoenen, .fashion, .junior, .outdoor, .bike, .jackWolfskin, .energie, .lookbook").show();
+      $(".wintersport, .fashion, .junior, .outdoor, .bike, .gadgets, .christmas, .lookbook").show();
       
       $("#alleFolderProducten").addClass("active");
 
@@ -136,12 +136,8 @@
     // Click Events
 
 
-    $("#schoenen").click(function() {
-      // $(".fashion, .junior, .outdoor, .bike, .actie, .energie, .lookbook").hide();
-      // $(".schoenen").show();
-      // $(this).siblings().removeClass("active");
-      // $(this).addClass("active");
-      location.search = schoenen;
+    $("#wintersport").click(function() {
+      location.search = wintersport;
 
       imagesLoaded(container, function() {
         msnry.layout();
@@ -150,10 +146,6 @@
     });
 
     $("#fashion").click(function() {
-      // $(".schoenen, .junior, .outdoor, .bike, .actie, .energie, .lookbook").hide();
-      // $(".fashion").show();
-      // $(this).siblings().removeClass("active");
-      // $(this).addClass("active");
       location.search = fashion;
 
       imagesLoaded(container, function() {
@@ -163,10 +155,6 @@
     });
 
     $("#junior").click(function() {
-      // $(".schoenen, .fashion, .outdoor, .bike, .actie, .energie, .lookbook").hide();
-      // $(".junior").show();
-      // $(this).siblings().removeClass("active");
-      // $(this).addClass("active");
       location.search = junior;
 
       imagesLoaded(container, function() {
@@ -176,10 +164,6 @@
     });
 
     $("#outdoor").click(function() {
-      // $(".schoenen, .fashion, .junior, .bike, .actie, .energie, .lookbook").hide();
-      // $(".outdoor").show();
-      // $(this).siblings().removeClass("active");
-      // $(this).addClass("active");
       location.search = outdoor;
 
       imagesLoaded(container, function() {
@@ -189,10 +173,6 @@
     });
 
     $("#bike").click(function() {
-      // $(".schoenen, .fashion, .junior, .outdoor, .actie, .energie, .lookbook").hide();
-      // $(".bike").show();
-      // $(this).siblings().removeClass("active");
-      // $(this).addClass("active");
       location.search = bike;
 
       imagesLoaded(container, function() {
@@ -201,12 +181,8 @@
       });
     });
 
-    $("#jackWolfskin").click(function() {
-      // $(".schoenen, .fashion, .junior, .outdoor, .bike, .energie, .lookbook, .sfeer").hide();
-      // $(".actie").show();
-      // $(this).siblings().removeClass("active");
-      // $(this).addClass("active");
-      location.search = jackWolfskin;
+    $("#gadgets").click(function() {
+      location.search = gadgets;
 
       imagesLoaded(container, function() {
         msnry.layout();
@@ -215,11 +191,6 @@
     });
 
     $("#lookbook").click(function() {
-      // $(".schoenen, .fashion, .junior, .outdoor, .bike, .energie, .actie, .sfeer").hide();
-      // $(".lookbook").show();
-      // $(".hidden").show();
-      // $(this).siblings().removeClass("active");
-      // $(this).addClass("active");
       location.search = lookbook;
 
       imagesLoaded(container, function() {
@@ -228,12 +199,8 @@
       });
     });
 
-    $("#energie").click(function() {
-      // $(".schoenen, .fashion, .junior, .outdoor, .bike, .actie, .lookbook").hide();
-      // $(".energie").show();
-      // $(this).siblings().removeClass("active");
-      // $(this).addClass("active");
-      location.search = energie;
+    $("#christmas").click(function() {
+      location.search = christmas;
 
       imagesLoaded(container, function() {
         msnry.layout();
@@ -242,9 +209,6 @@
     });
 
     $("#alleFolderProducten").click(function() {
-      // $(".schoenen, .fashion, .junior, .outdoor, .bike, .actie, .energie, .lookbook").show();
-      // $(this).siblings().removeClass("active");
-      // $(this).addClass("active");
       location.search = "";
 
       imagesLoaded(container, function() {

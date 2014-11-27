@@ -10,6 +10,18 @@ $numGutters: $numCols - 1;
 $gutter: 30px;
 $maxWidth: 1170px;
 
+// Width in percentages
+$fullWidth: 100%;
+
+// Height in pixels
+$oneRow: 300px;
+$twoRow: $gutter + ($oneRow * 2);
+$captionHeight: 60px;
+$descriptionHeight: 140px;
+
+// Height in percentages
+$fullHeight: 100%;
+
 // FUNCTIONS
 
 // Calculating the column width
@@ -17,89 +29,80 @@ $maxWidth: 1170px;
 	@return ($maxWidth - ($numGutters * $gutter)) / $numCols;
 }
 
-// Calculating breakpoints
-@function breakPoint1($numCols, $numGutters, $gutter, $maxWidth){
-	$colWidth: colWidth($numCols, $numGutters, $gutter, $maxWidth);
-	$breakPoint1: ((($colWidth * ($numCols - 1) + ($gutter * ($numGutters - 1))) / 9) * 10);
-	@return $breakPoint1;
-}
-
-@function breakPoint2($numCols, $numGutters, $gutter, $maxWidth){
-	$colWidth: colWidth($numCols, $numGutters, $gutter, $maxWidth);
-	$breakPoint2: ((($colWidth * ($numCols - 2) + ($gutter * ($numGutters - 2))) / 9) * 10);
-	@return $breakPoint2;
-}
-
-@function breakPoint3($numCols, $numGutters, $gutter, $maxWidth){
-	$colWidth: colWidth($numCols, $numGutters, $gutter, $maxWidth);
-	$breakPoint3: ((($colWidth * ($numCols - 3) + ($gutter * ($numGutters - 3))) / 9) * 10);
-	@return $breakPoint3;
-}
-
-@function breakPoint4($numCols, $numGutters, $gutter, $maxWidth){
-	$colWidth: colWidth($numCols, $numGutters, $gutter, $maxWidth);
-	$breakPoint4: ((($colWidth * ($numCols - 4) + ($gutter * ($numGutters - 4))) / 9) * 10);
-	@return $breakPoint4;
-}
-
 // Breakpoints
-$breakPoint1: breakPoint1($numCols, $numGutters, $gutter, $maxWidth);
-$breakPoint2: breakPoint2($numCols, $numGutters, $gutter, $maxWidth);
-$breakPoint3: breakPoint3($numCols, $numGutters, $gutter, $maxWidth);
-$breakPoint4: breakPoint4($numCols, $numGutters, $gutter, $maxWidth);
+
+$breakPoint1: 1199px;
+$breakPoint2: 979px;
+$breakPoint3: 767px;
+
+$mobileWidth: 414px;
 
 // ACTUAL GRID
 
 html, body{
-	width: 100%;
+	width: $fullWidth;
 }
 
+/* =======================================
+		START NESTING 
+======================================= */
+
 #folderWrapper{
-	margin: -30px auto 0;
+	//margin: -30px auto 0;
+	margin: 10px auto 0;
 	max-width: $maxWidth;
 	padding-bottom: 50px;
-	width: 100%;
+	width: $fullWidth;
 
 	@media only screen and(max-width: $breakPoint2){
 		width: 99%;
 	}
 
-	.clearfix:after{
-		clear: both;
-		content:"";
-		display: table;
+/* ------------------------------------ */
+
+.clearfix:after{
+	clear: both;
+	content:"";
+	display: table;
+}
+
+.gridSizer{
+	width: percentage((colWidth($numCols, $numGutters, $gutter, $maxWidth) / $maxWidth));
+
+	// @media only screen and(max-width: $breakPoint1){
+	// 	width: percentage( colWidth(($numCols), ($numGutters), $gutter, $breakPoint1) / $breakPoint1);
+	// }
+
+	@media only screen and(max-width: $breakPoint2){
+		width: percentage( colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint2) / $breakPoint2);
 	}
 
-	.gridSizer{
-		width: percentage((colWidth($numCols, $numGutters, $gutter, $maxWidth) / $maxWidth));
-
-		@media only screen and(max-width: $breakPoint1){
-			width: percentage( colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint1) / $breakPoint1);
-		}
-
-		@media only screen and(max-width: $breakPoint2){
-			width: percentage( colWidth(($numCols - 2), ($numGutters - 2), $gutter, $breakPoint2) / $breakPoint2);
-		}
-
-		@media only screen and(max-width: $breakPoint3){
-			width: percentage( colWidth(($numCols - 3), ($numGutters - 3), $gutter, $breakPoint3) / $breakPoint3);
-		}
+	@media only screen and(max-width: $breakPoint3){
+		width: percentage( colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint3) / $breakPoint3);
 	}
 
-	.gutterSizer{
-		width: percentage($gutter / $maxWidth);
+	@media only screen and(max-width: $mobileWidth){
+		width: percentage( colWidth(($numCols - 2), ($numGutters - 2), $gutter, $mobileWidth) / $mobileWidth);
+	}
+}
 
-		@media only screen and(max-width: $breakPoint1){
-			width: percentage($gutter / $breakPoint1);
-		}
+.gutterSizer{
+	width: percentage($gutter / $maxWidth);
 
-		@media only screen and(max-width: $breakPoint2){
-			width: percentage($gutter / $breakPoint2);
-		}
+	// @media only screen and(max-width: $breakPoint1){
+	// 	width: percentage($gutter / $breakPoint1);
+	// }
 
-		@media only screen and(max-width: $breakPoint3){
-			width: percentage($gutter / $breakPoint3);
-		}
+	@media only screen and(max-width: $breakPoint2){
+		width: percentage($gutter / $breakPoint2);
+	}
+
+	@media only screen and(max-width: $breakPoint3){
+		width: percentage($gutter / $breakPoint3);
+	}
+
+	@media only screen and(max-width: $mobileWidth){
+		width: percentage($gutter / $mobileWidth);
 	}
 }
 
@@ -116,70 +119,140 @@ html, body{
 
 .folderContent{
 	margin: 0 auto;
-	width: 100%;
+	width: $fullWidth;
 }
 
 // FOLDERITEM
 
 .folderItem{
 	border-collapse: collapse;
+	display: block;
 	float: left;
-	margin-right: percentage($gutter / $maxWidth);
-	margin-bottom: 30px;
+	//height: $oneRow;
+	//margin-left: percentage($gutter / $maxWidth);
+	margin-bottom: $gutter;
 	width: percentage( colWidth($numCols, $numGutters, $gutter, $maxWidth) / $maxWidth);
 
-	.product{
-		position: relative;
+	article, video{
+		float: left;
+		//height: percentage(($oneRow - $captionHeight) / $oneRow);
 		width: 100%;
 	}
 
+	.video{
+		background: #ffffff;
+		height: 300px;
+		width: 570px;
+	}
+
 	img{
-		max-width: 100%;
+		//height: auto;
+		width: 100%;
 	}
 
-	.brand_logo{
-		max-width: 45%;
-		position: absolute;
-		top: 10px;
-		left: 16px;
+	.product{
+		float: left;
+		//height: $fullHeight;
+		position: relative;
+		width: $fullWidth;
 	}
 
-	@media only screen and(max-width: $breakPoint1){
-		margin-right: percentage($gutter / $breakPoint1);
-		width: percentage( colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint1) / $breakPoint1);
+	.lazy{
+		float: left;
+		//height: $oneRow;
+		max-width: $fullWidth;
 	}
+
+	&.twoRow{
+		height: $twoRow;
+		.lazy{
+			//height: $twoRow;
+		}
+	}
+
+	& + .folderitem{
+		margin-left: 0;
+	}
+
+	// @media only screen and(max-width: $breakPoint1){
+	// 	width: percentage( colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint1) / $breakPoint1);
+	// }
 
 	@media only screen and(max-width: $breakPoint2){
-		margin-right: percentage($gutter / $breakPoint2);
-		width: percentage( colWidth(($numCols - 2), ($numGutters - 2), $gutter, $breakPoint2) / $breakPoint2);
+		width: percentage( colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint2) / $breakPoint2);
 	}
 
 	@media only screen and(max-width: $breakPoint3){
-		margin-right: percentage($gutter / $breakPoint3);
-		width: percentage( colWidth(($numCols - 3), ($numGutters - 3), $gutter, $breakPoint3) / $breakPoint3);
+		width: percentage( colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint3) / $breakPoint3);
 	}
-}
 
-.folderItem:nth-child( #{$numCols}n+#{$numCols} ){
-	margin-right: 0;
+	@media only screen and(max-width: $mobileWidth){
+		width: percentage( colWidth(($numCols - 2), ($numGutters - 2), $gutter, $mobileWidth) / $mobileWidth);
+	}
 }
 
 .twoCol{
 	width: percentage( (colWidth($numCols, $numGutters, $gutter, $maxWidth) * 2 + $gutter) / $maxWidth);
+
+	@media only screen and(max-width: $breakPoint2){
+		width: percentage( (colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint2) / $breakPoint2) * 2) + percentage($gutter / $breakPoint2);
+	}
+
+	@media only screen and(max-width: $breakPoint3){
+		width: percentage( (colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint3) / $breakPoint3) * 2) + percentage($gutter / $breakPoint3);
+	}
+
+	@media only screen and(max-width: $mobileWidth){
+		width: percentage( (colWidth(($numCols - 2), ($numGutters - 2), $gutter, $mobileWidth) / $mobileWidth) * 2) + percentage($gutter / $breakPoint3);
+	}
 }
 
 // PRICETAG
 
-.priceTag{
-	position: absolute;
-		bottom: 10px;
-		right: 8px;
+// DESCRIPTION
+.description{
+	float: left;
+	height: $captionHeight;
+	padding: 0 .5em;
+	width: 100%;
+
+	&.hasDescription{
+		height: $descriptionHeight;
+	}
+
+	.title-block{
+		margin-bottom: .8em;
+		width: 100%;
+		
+		h3, h3 a{
+			margin: .6em 0 .4em;
+		}
+
+		h4, h4 a{
+			margin: .4em 0;
+		}
+	}
+
+	p, p a{
+		padding-top: 1em;
+		padding-bottom: 1em;
+
+		.end-block{
+			display: inline-block;
+			height: 6px;
+			position: relative;
+				top: -1px;
+				left: 4px;
+			width: 6px;
+		}
+	}
 }
 
-.priceTag2{
-	position: absolute;
-		bottom: 10px;
-		left: 8px;
+/* =======================================
+		END NESTING 
+========================================*/
+
 }
 
+/* ------------------------------------ */
 
