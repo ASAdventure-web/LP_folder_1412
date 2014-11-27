@@ -133,10 +133,16 @@ html, body{
 	margin-bottom: $gutter;
 	width: percentage( colWidth($numCols, $numGutters, $gutter, $maxWidth) / $maxWidth);
 
-	article{
+	article, video{
 		float: left;
 		//height: percentage(($oneRow - $captionHeight) / $oneRow);
 		width: 100%;
+	}
+
+	.video{
+		background: #ffffff;
+		height: 300px;
+		width: 570px;
 	}
 
 	img{

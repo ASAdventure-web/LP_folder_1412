@@ -2201,6 +2201,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/producten\/reisenthel_toilettas.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15456,
+		"inputAbbreviatedPath": "\/images\/producten\/reisenthel_toilettas.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/reisenthel_toilettas.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/producten\/sorel_tofino_laars.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2230,6 +2241,17 @@
 		"initialSize": 13610,
 		"inputAbbreviatedPath": "\/images\/ribbon-top-left.png",
 		"outputAbbreviatedPath": "\/images\/ribbon-top-left.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sfeer\/burserberg_brandnertal.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27532,
+		"inputAbbreviatedPath": "\/images\/sfeer\/burserberg_brandnertal.jpg",
+		"outputAbbreviatedPath": "\/images\/sfeer\/burserberg_brandnertal.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2318,7 +2340,7 @@
 		},
 	"\/javascript\/filtering.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/javascript\/filtering.js",
 		"outputAbbreviatedPath": "\/javascript\/min\/filtering-min.js",
@@ -2476,6 +2498,12 @@
 			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/javascript\/video.js",
 			"position": 1,
+			"type": 1
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/javascript\/filtering.js",
+			"position": 2,
 			"type": 1
 			}
 		]
