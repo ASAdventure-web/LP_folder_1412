@@ -446,8 +446,10 @@ video{
 	text-transform: uppercase;
 
   &.red, &.green{
-    box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.3),
+                inset 0 0 10px rgba(0,0,0,0.1);
     color: #ffffff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
   }
 
   &.red{
