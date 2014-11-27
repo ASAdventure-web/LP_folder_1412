@@ -2027,6 +2027,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/css\/folderheader.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/folderheader.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/fonts\/font.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -2045,7 +2054,7 @@
 		"outputAbbreviatedPath": "\/images\/background-pattern.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/christmas-special.png": {
 		"fileType": 32768,
@@ -2056,7 +2065,7 @@
 		"outputAbbreviatedPath": "\/images\/christmas-special.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/header.jpg": {
 		"fileType": 16384,
@@ -2067,7 +2076,7 @@
 		"outputAbbreviatedPath": "\/images\/header.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/large-snow.png": {
 		"fileType": 32768,
@@ -2078,7 +2087,7 @@
 		"outputAbbreviatedPath": "\/images\/large-snow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/light.png": {
 		"fileType": 32768,
@@ -2089,7 +2098,7 @@
 		"outputAbbreviatedPath": "\/images\/light.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/lightpaperfibers.jpg": {
 		"fileType": 16384,
@@ -2100,7 +2109,7 @@
 		"outputAbbreviatedPath": "\/images\/lightpaperfibers.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/logo_x_pattern.png": {
 		"fileType": 32768,
@@ -2111,7 +2120,7 @@
 		"outputAbbreviatedPath": "\/images\/logo_x_pattern.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/medium-snow.png": {
 		"fileType": 32768,
@@ -2122,7 +2131,7 @@
 		"outputAbbreviatedPath": "\/images\/medium-snow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/producten\/barts_claire_beanie.jpg": {
 		"fileType": 16384,
@@ -2133,7 +2142,7 @@
 		"outputAbbreviatedPath": "\/images\/producten\/barts_claire_beanie.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/producten\/barts_claire_sjaal.jpg": {
 		"fileType": 16384,
@@ -2144,7 +2153,7 @@
 		"outputAbbreviatedPath": "\/images\/producten\/barts_claire_sjaal.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/producten\/barts_claire_wanten.jpg": {
 		"fileType": 16384,
@@ -2155,7 +2164,7 @@
 		"outputAbbreviatedPath": "\/images\/producten\/barts_claire_wanten.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/producten\/brunotti_loydasa_skibroek.jpg": {
 		"fileType": 16384,
@@ -2166,7 +2175,7 @@
 		"outputAbbreviatedPath": "\/images\/producten\/brunotti_loydasa_skibroek.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/producten\/buff_pied_de_poule.jpg": {
 		"fileType": 16384,
@@ -2177,7 +2186,7 @@
 		"outputAbbreviatedPath": "\/images\/producten\/buff_pied_de_poule.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/producten\/eider_mondovi_jas.jpg": {
 		"fileType": 16384,
@@ -2188,7 +2197,7 @@
 		"outputAbbreviatedPath": "\/images\/producten\/eider_mondovi_jas.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/producten\/joy_happiness_handwarmer.jpg": {
 		"fileType": 16384,
@@ -2199,7 +2208,7 @@
 		"outputAbbreviatedPath": "\/images\/producten\/joy_happiness_handwarmer.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/producten\/poivre_blanc_donsjas.jpg": {
 		"fileType": 16384,
@@ -2210,7 +2219,7 @@
 		"outputAbbreviatedPath": "\/images\/producten\/poivre_blanc_donsjas.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/producten\/reisenthel_toilettas.jpg": {
 		"fileType": 16384,
@@ -2221,7 +2230,29 @@
 		"outputAbbreviatedPath": "\/images\/producten\/reisenthel_toilettas.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/images\/producten\/reusch_snow_trail_handschoen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11694,
+		"inputAbbreviatedPath": "\/images\/producten\/reusch_snow_trail_handschoen.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/reusch_snow_trail_handschoen.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/producten\/rossignol_snowskate.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16403,
+		"inputAbbreviatedPath": "\/images\/producten\/rossignol_snowskate.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/rossignol_snowskate.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/images\/producten\/sorel_tofino_laars.jpg": {
 		"fileType": 16384,
@@ -2232,7 +2263,18 @@
 		"outputAbbreviatedPath": "\/images\/producten\/sorel_tofino_laars.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/images\/producten\/toko_express_pocket.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13031,
+		"inputAbbreviatedPath": "\/images\/producten\/toko_express_pocket.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/toko_express_pocket.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/images\/ribbon-bottom-right.png": {
 		"fileType": 32768,
@@ -2243,7 +2285,7 @@
 		"outputAbbreviatedPath": "\/images\/ribbon-bottom-right.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/ribbon-top-left.png": {
 		"fileType": 32768,
@@ -2254,7 +2296,7 @@
 		"outputAbbreviatedPath": "\/images\/ribbon-top-left.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/sfeer\/burserberg_brandnertal.jpg": {
 		"fileType": 16384,
@@ -2265,7 +2307,7 @@
 		"outputAbbreviatedPath": "\/images\/sfeer\/burserberg_brandnertal.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/sfeer\/man_2.jpg": {
 		"fileType": 16384,
@@ -2276,7 +2318,7 @@
 		"outputAbbreviatedPath": "\/images\/sfeer\/man_2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/sfeer\/man_on_bridge.jpg": {
 		"fileType": 16384,
@@ -2287,7 +2329,7 @@
 		"outputAbbreviatedPath": "\/images\/sfeer\/man_on_bridge.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/sfeer\/woman_in_frame.jpg": {
 		"fileType": 16384,
@@ -2298,7 +2340,7 @@
 		"outputAbbreviatedPath": "\/images\/sfeer\/woman_in_frame.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/small-snow.png": {
 		"fileType": 32768,
@@ -2309,7 +2351,7 @@
 		"outputAbbreviatedPath": "\/images\/small-snow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/index_en.html": {
 		"fileType": 8192,
