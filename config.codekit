@@ -2221,7 +2221,7 @@
 		"outputAbbreviatedPath": "\/images\/producten\/joy_happiness_handwarmer.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/images\/producten\/poivre_blanc_donsjas.jpg": {
 		"fileType": 16384,
@@ -2267,6 +2267,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/producten\/sinner_radius_skimasker.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7567,
+		"inputAbbreviatedPath": "\/images\/producten\/sinner_radius_skimasker.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/sinner_radius_skimasker.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/producten\/sorel_tofino_laars.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2277,6 +2288,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/images\/producten\/superdry_redfort_beanie.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13485,
+		"inputAbbreviatedPath": "\/images\/producten\/superdry_redfort_beanie.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/superdry_redfort_beanie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/images\/producten\/toko_express_pocket.jpg": {
 		"fileType": 16384,
