@@ -2223,6 +2223,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/producten\/oogverblindende_accessoires.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31094,
+		"inputAbbreviatedPath": "\/images\/producten\/oogverblindende_accessoires.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/oogverblindende_accessoires.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/producten\/poivre_blanc_donsjas.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2365,6 +2376,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/images\/sfeer\/skiing_men.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23681,
+		"inputAbbreviatedPath": "\/images\/sfeer\/skiing_men.jpg",
+		"outputAbbreviatedPath": "\/images\/sfeer\/skiing_men.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sfeer\/skiing_men2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36738,
+		"inputAbbreviatedPath": "\/images\/sfeer\/skiing_men2.jpg",
+		"outputAbbreviatedPath": "\/images\/sfeer\/skiing_men2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/images\/sfeer\/woman_in_frame.jpg": {
 		"fileType": 16384,
@@ -2578,15 +2611,15 @@
 	"\/javascript\/config.js": [
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/javascript\/lazy_load.js",
+			"linkedFileAbbreviatedPath": "\/javascript\/video.js",
 			"position": 0,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/javascript\/video.js",
+			"linkedFileAbbreviatedPath": "\/javascript\/lazy_load.js",
 			"position": 1,
-			"type": 1
+			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,

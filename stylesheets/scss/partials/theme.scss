@@ -389,7 +389,7 @@ a{
 	box-shadow: 0 0 2px rgba(0,0,0,0.20), 
 							0 2px 4px rgba(0,0,0,0.10);
 
-	&:hover{
+	&.product:hover{
 		box-shadow: 0 0 2px #b4b4b4, 
 								0 3px 6px #C4C4C4;
 		box-shadow: 0 0 2px rgba(0,0,0,0.20), 
@@ -417,38 +417,38 @@ video{
   box-shadow: 0 0 3px rgba(0,0,0,0.4);
 }
 
-.video{
+.video, .sfeer{
   background: #ffffff;
+}
 
-  .hoek-lb, .hoek-lo, .hoek-rb, .hoek-ro{
-    height: 50px;
-    position: absolute;
-    width: 50px;
-  }
+.hoek-lb, .hoek-lo, .hoek-rb, .hoek-ro{
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
 
-  .hoek-lb{
-    background: url(../../images/hoekjes.png) 0 0;
-    top: 0;
-    left: 0;
-  }
+.hoek-lb{
+  background: url(../../images/hoekjes.png) 0 0;
+  top: 0;
+  left: 0;
+}
 
-  .hoek-lo{
-    background: url(../../images/hoekjes.png) 0 50px;
-    bottom: 0;
-    left: 0;
-  }
+.hoek-lo{
+  background: url(../../images/hoekjes.png) 0 50px;
+  bottom: 0;
+  left: 0;
+}
 
-  .hoek-rb{
-    background: url(../../images/hoekjes.png) 50px 0;
-    top: 0;
-    right: 0;
-  }
+.hoek-rb{
+  background: url(../../images/hoekjes.png) 50px 0;
+  top: 0;
+  right: 0;
+}
 
-  .hoek-ro{
-    background: url(../../images/hoekjes.png) 50px 50px;
-    bottom: 0;
-    right: 0;
-  }
+.hoek-ro{
+  background: url(../../images/hoekjes.png) 50px 50px;
+  bottom: 0;
+  right: 0;
 }
 
 .sfeer, .brand_logo{

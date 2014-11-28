@@ -139,10 +139,13 @@ html, body{
 		width: 100%;
 	}
 
-	.video{
+	.video, .sfeer{
 		position: relative;
-		height: 300px;
-		width: 570px;
+
+		&.video{
+			height: 300px;
+			width: 570px;
+		}
 	}
 
 	img{
