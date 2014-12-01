@@ -2800,15 +2800,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/stylesheets\/css\/lp_folder_1412.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/stylesheets\/css\/lp_folder_1412.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/stylesheets\/scss\/lp_folder_1412.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
