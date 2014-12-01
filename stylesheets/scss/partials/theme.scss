@@ -507,6 +507,32 @@ span.green{
     background: #597438;
   }
 
+  &.top-5{
+    top: 5%;
+    bottom: inherit;
+  }
+
+  &.top-10{
+    top: 10%;
+    bottom: inherit;
+  }
+
+  &.top-15{
+    top: 15%;
+    bottom: inherit;
+  }
+
+  &.top-20{
+    top: 20%;
+    bottom: inherit;
+  }
+
+  &.top-25{
+    top: 25%;
+    bottom: inherit;
+  }
+
+
   &.right-5{
     right: 5%;
   }
