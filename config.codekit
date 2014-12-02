@@ -2238,7 +2238,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 18950,
+		"initialSize": 18349,
 		"inputAbbreviatedPath": "\/images\/producten\/beardo_original_beardo_muts.jpg",
 		"outputAbbreviatedPath": "\/images\/producten\/beardo_original_beardo_muts.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -3158,6 +3158,116 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/promo\/cadeaucheques_promo-FR.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57225,
+		"inputAbbreviatedPath": "\/images\/promo\/cadeaucheques_promo-FR.jpg",
+		"outputAbbreviatedPath": "\/images\/promo\/cadeaucheques_promo-FR.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/promo\/cadeaucheques_promo-NL.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55781,
+		"inputAbbreviatedPath": "\/images\/promo\/cadeaucheques_promo-NL.jpg",
+		"outputAbbreviatedPath": "\/images\/promo\/cadeaucheques_promo-NL.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/promo\/eastpak_trolley.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23806,
+		"inputAbbreviatedPath": "\/images\/promo\/eastpak_trolley.jpg",
+		"outputAbbreviatedPath": "\/images\/promo\/eastpak_trolley.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/promo\/grabber_handwarmers.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13295,
+		"inputAbbreviatedPath": "\/images\/promo\/grabber_handwarmers.jpg",
+		"outputAbbreviatedPath": "\/images\/promo\/grabber_handwarmers.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/promo\/groene_prijs-FR.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20607,
+		"inputAbbreviatedPath": "\/images\/promo\/groene_prijs-FR.jpg",
+		"outputAbbreviatedPath": "\/images\/promo\/groene_prijs-FR.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/promo\/groene_prijs.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21320,
+		"inputAbbreviatedPath": "\/images\/promo\/groene_prijs.jpg",
+		"outputAbbreviatedPath": "\/images\/promo\/groene_prijs.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/promo\/promo_buff-FR.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28380,
+		"inputAbbreviatedPath": "\/images\/promo\/promo_buff-FR.jpg",
+		"outputAbbreviatedPath": "\/images\/promo\/promo_buff-FR.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/promo\/promo_buff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27807,
+		"inputAbbreviatedPath": "\/images\/promo\/promo_buff.jpg",
+		"outputAbbreviatedPath": "\/images\/promo\/promo_buff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/promo\/promo_vivabox-FR.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24333,
+		"inputAbbreviatedPath": "\/images\/promo\/promo_vivabox-FR.jpg",
+		"outputAbbreviatedPath": "\/images\/promo\/promo_vivabox-FR.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/promo\/promo_vivabox.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25227,
+		"inputAbbreviatedPath": "\/images\/promo\/promo_vivabox.jpg",
+		"outputAbbreviatedPath": "\/images\/promo\/promo_vivabox.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ribbon-bottom-right.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3271,15 +3381,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index_fr.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/index_nl.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index_nl.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
