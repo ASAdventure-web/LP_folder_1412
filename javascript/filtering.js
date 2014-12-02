@@ -6,6 +6,8 @@
     var bike = "?bike";
     var gadgets = "?gadgets";
     var lookbook = "?lookbook";
+    var acties = "?acties";
+    var groeneprijzen = "?groeneprijzen";
     var christmas = "?christmas";
 
     var navFix = "navFix";
@@ -39,7 +41,7 @@
     // filter();
 
     if (testParam === wintersport) {
-      $(".fashion, .junior, .outdoor, .bike, .gadgets, .christmas, .lookbook").hide();
+      $(".fashion, .junior, .outdoor, .bike, .gadgets, .christmas, .lookbook, .acties").hide();
       $(".wintersport").show();
       
       $("li#wintersport").addClass("active");
@@ -49,8 +51,9 @@
         msnry.layout();
         onLayout();
       });
+
     } else if (testParam === fashion) {
-      $(".wintersport, .junior, .outdoor, .bike, .gadgets, .christmas, .lookbook").hide();
+      $(".wintersport, .junior, .outdoor, .bike, .gadgets, .christmas, .lookbook, .acties").hide();
       $(".fashion").show();
       
       $("li#fashion").addClass("active");
@@ -60,8 +63,9 @@
         msnry.layout();
         onLayout();
       });
+
     } else if (testParam === junior) {
-      $(".wintersport, .fashion, .outdoor, .bike, .gadgets, .christmas, .lookbook").hide();
+      $(".wintersport, .fashion, .outdoor, .bike, .gadgets, .christmas, .lookbook, .acties").hide();
       $(".junior").show();
       
       $("li#junior").addClass("active");
@@ -71,9 +75,11 @@
         msnry.layout();
         onLayout();
       });
+
     } else if (testParam === outdoor) {
-      $(".wintersport, .fashion, .junior, .bike, .gadgets, .christmas, .lookbook").hide();
+      $(".wintersport, .fashion, .junior, .bike, .gadgets, .christmas, .lookbook, .acties").hide();
       $(".outdoor").show();
+
       $("li#outdoor").addClass("active");
       window.location.hash = navFix;
 
@@ -81,9 +87,11 @@
         msnry.layout();
         onLayout();
       });
+
     } else if (testParam === bike) {
-      $(".wintersport, .fashion, .junior, .outdoor, .gadgets, .christmas, .lookbook").hide();
+      $(".wintersport, .fashion, .junior, .outdoor, .gadgets, .christmas, .lookbook, .acties, .groeneprijzen").hide();
       $(".bike").show();
+
       $("#bike").addClass("active");
       window.location.hash = navFix;
 
@@ -91,9 +99,11 @@
         msnry.layout();
         onLayout();
       });
+
     } else if (testParam === gadgets) {
-      $(".wintersport, .fashion, .junior, .outdoor, .bike, .christmas, .lookbook").hide();
+      $(".wintersport, .fashion, .junior, .outdoor, .bike, .christmas, .lookbook, .acties, .groeneprijzen").hide();
       $(".gadgets").show();
+
       $("#gadgets").addClass("active");
       window.location.hash = navFix;
 
@@ -101,9 +111,11 @@
         msnry.layout();
         onLayout();
       });
+
     } else if (testParam === lookbook) {
-      $(".wintersport, .fashion, .junior, .outdoor, .bike, .christmas, .gadgets, .sfeer").hide();
+      $(".wintersport, .fashion, .junior, .outdoor, .bike, .christmas, .gadgets, .sfeer, .acties, .groeneprijzen").hide();
       $(".lookbook").show();
+
       $("#lookbook").addClass("active");
       window.location.hash = navFix;
 
@@ -111,8 +123,35 @@
         msnry.layout();
         onLayout();
       });
+
+    } else if (testParam === acties) {
+      $(".wintersport, .fashion, .junior, .outdoor, .bike, .christmas, .gadgets, .sfeer, .lookbook, .groeneprijzen").hide();
+      $(".acties").show();
+      
+      $("#acties").addClass("active");
+      $("#alleFolderProducten").removeClass("active");
+      window.location.hash = navFix;
+
+      imagesLoaded(container, function() {
+        msnry.layout();
+        onLayout();
+      });
+
+    } else if (testParam === groeneprijzen) {
+      $(".wintersport, .fashion, .junior, .outdoor, .bike, .christmas, .gadgets, .sfeer, .lookbook, .acties").hide();
+      $(".groeneprijzen").show();
+      
+      $("#groeneprijzen").addClass("active");
+      $("#alleFolderProducten").removeClass("active");
+      window.location.hash = navFix;
+
+      imagesLoaded(container, function() {
+        msnry.layout();
+        onLayout();
+      });
+
     } else if (testParam === christmas) {
-      $(".wintersport, .fashion, .junior, .outdoor, .bike, .gadgets, .lookbook").hide();
+      $(".wintersport, .fashion, .junior, .outdoor, .bike, .gadgets, .lookbook, .acties, .groeneprijzen").hide();
       $(".christmas").show();
       
       $("#christmas").addClass("active");
@@ -122,9 +161,9 @@
         msnry.layout();
         onLayout();
       });
+
     } else {
-      $(".wintersport, .fashion, .junior, .outdoor, .bike, .gadgets, .christmas, .lookbook").show();
-      
+      $(".wintersport, .fashion, .junior, .outdoor, .bike, .gadgets, .christmas, .lookbook, .acties, .groeneprijzen").show();
       $("#alleFolderProducten").addClass("active");
 
       imagesLoaded(container, function() {
@@ -192,6 +231,24 @@
 
     $("#lookbook").click(function() {
       location.search = lookbook;
+
+      imagesLoaded(container, function() {
+        msnry.layout();
+        onLayout();
+      });
+    });
+
+    $("#acties").click(function() {
+      location.search = acties;
+
+      imagesLoaded(container, function() {
+        msnry.layout();
+        onLayout();
+      });
+    });
+
+    $("#groeneprijzen").click(function() {
+      location.search = groeneprijzen;
 
       imagesLoaded(container, function() {
         msnry.layout();
