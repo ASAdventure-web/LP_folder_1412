@@ -274,7 +274,7 @@ a{
 		float: left;
 		font-size: 1.0em;
 		line-height: 1.2em;
-		padding: 0 1.7em 0;
+		padding: 0 1.2em 0;
 		position: relative;
 		transition: border .3s ease-in-out;
 
@@ -339,6 +339,10 @@ a{
 
 	li:hover a{
 		color: $mainColor;
+
+    &.green{
+      color: #597438;
+    }
 	}
 
 	li:hover a.backup-color{
@@ -349,6 +353,11 @@ a{
 		border-bottom: 2px solid $mainColor;
 		color: $mainColor;
 
+    &.green{
+      border-bottom: 2px solid #597438;
+      color: #597438;
+    }
+
 		@media only screen and(max-width: 767px){
 			background: $mainColor;
 			border-bottom: 0;
@@ -356,8 +365,8 @@ a{
 		}
 	}
 
-	li.active a.groen{
-		color: #87CB40;
+	li.active a.green{
+		color: #597438;
 	}
 
 	li a .vertical{

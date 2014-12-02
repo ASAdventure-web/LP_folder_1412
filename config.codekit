@@ -2135,6 +2135,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/producten\/assortiment_helmen_goggles_junior.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26858,
+		"inputAbbreviatedPath": "\/images\/producten\/assortiment_helmen_goggles_junior.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/assortiment_helmen_goggles_junior.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/ayacucho_assortiment_pantoffels.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36527,
+		"inputAbbreviatedPath": "\/images\/producten\/ayacucho_assortiment_pantoffels.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/ayacucho_assortiment_pantoffels.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/barts_brekka_assortiment_mutsen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37614,
+		"inputAbbreviatedPath": "\/images\/producten\/barts_brekka_assortiment_mutsen.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/barts_brekka_assortiment_mutsen.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/producten\/barts_claire_beanie.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2179,11 +2212,33 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/producten\/barts_helmcover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58591,
+		"inputAbbreviatedPath": "\/images\/producten\/barts_helmcover.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/barts_helmcover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/bbb_torque_set_momentsleutel.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26209,
+		"inputAbbreviatedPath": "\/images\/producten\/bbb_torque_set_momentsleutel.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/bbb_torque_set_momentsleutel.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/producten\/beardo_original_beardo_muts.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 19806,
+		"initialSize": 18950,
 		"inputAbbreviatedPath": "\/images\/producten\/beardo_original_beardo_muts.jpg",
 		"outputAbbreviatedPath": "\/images\/producten\/beardo_original_beardo_muts.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2194,7 +2249,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 42830,
+		"initialSize": 10136,
 		"inputAbbreviatedPath": "\/images\/producten\/bridgedale_merino_hiker_kous.jpg",
 		"outputAbbreviatedPath": "\/images\/producten\/bridgedale_merino_hiker_kous.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2223,6 +2278,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/producten\/buff_assortiment-FR.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52232,
+		"inputAbbreviatedPath": "\/images\/producten\/buff_assortiment-FR.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/buff_assortiment-FR.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/buff_assortiment.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47528,
+		"inputAbbreviatedPath": "\/images\/producten\/buff_assortiment.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/buff_assortiment.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/buff_junior_assortiment.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 112890,
+		"inputAbbreviatedPath": "\/images\/producten\/buff_junior_assortiment.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/buff_junior_assortiment.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/producten\/buff_pied_de_poule.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2233,6 +2321,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/images\/producten\/butterfly_samentha_ballerina.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27285,
+		"inputAbbreviatedPath": "\/images\/producten\/butterfly_samentha_ballerina.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/butterfly_samentha_ballerina.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/images\/producten\/bynolyt_sparrow_wpr_verrekijker.jpg": {
 		"fileType": 16384,
@@ -2245,13 +2344,35 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/producten\/camel_active_portefeuille.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12517,
+		"inputAbbreviatedPath": "\/images\/producten\/camel_active_portefeuille.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/camel_active_portefeuille.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/producten\/camel_active_toilettas.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 15241,
+		"initialSize": 11372,
 		"inputAbbreviatedPath": "\/images\/producten\/camel_active_toilettas.jpg",
 		"outputAbbreviatedPath": "\/images\/producten\/camel_active_toilettas.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/cmp_halfzip_fleece.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62591,
+		"inputAbbreviatedPath": "\/images\/producten\/cmp_halfzip_fleece.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/cmp_halfzip_fleece.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2260,9 +2381,53 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 47183,
+		"initialSize": 45422,
 		"inputAbbreviatedPath": "\/images\/producten\/cmp_knitwear_cardigan.jpg",
 		"outputAbbreviatedPath": "\/images\/producten\/cmp_knitwear_cardigan.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/cmp_thermisch_ondergoed.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46010,
+		"inputAbbreviatedPath": "\/images\/producten\/cmp_thermisch_ondergoed.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/cmp_thermisch_ondergoed.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/contigo_westloop_thermosfles.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31509,
+		"inputAbbreviatedPath": "\/images\/producten\/contigo_westloop_thermosfles.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/contigo_westloop_thermosfles.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/craft_winter_giftset.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28556,
+		"inputAbbreviatedPath": "\/images\/producten\/craft_winter_giftset.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/craft_winter_giftset.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/de_marchi_assortiment_polo_shirts.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26627,
+		"inputAbbreviatedPath": "\/images\/producten\/de_marchi_assortiment_polo_shirts.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/de_marchi_assortiment_polo_shirts.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2271,9 +2436,42 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 85349,
+		"initialSize": 31141,
 		"inputAbbreviatedPath": "\/images\/producten\/didriksons_lindsey_jas.jpg",
 		"outputAbbreviatedPath": "\/images\/producten\/didriksons_lindsey_jas.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/doiy_gevechtskussen_veilig_spelen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26278,
+		"inputAbbreviatedPath": "\/images\/producten\/doiy_gevechtskussen_veilig_spelen.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/doiy_gevechtskussen_veilig_spelen.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/doiy_polaframes_fotokader.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27053,
+		"inputAbbreviatedPath": "\/images\/producten\/doiy_polaframes_fotokader.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/doiy_polaframes_fotokader.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/donkey_winediver.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22303,
+		"inputAbbreviatedPath": "\/images\/producten\/donkey_winediver.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/donkey_winediver.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2288,6 +2486,83 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/images\/producten\/eskimo_dotty_en_onesie_pyjama.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47680,
+		"inputAbbreviatedPath": "\/images\/producten\/eskimo_dotty_en_onesie_pyjama.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/eskimo_dotty_en_onesie_pyjama.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/fatboy_edison_the_petit_nachtlamp.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15251,
+		"inputAbbreviatedPath": "\/images\/producten\/fatboy_edison_the_petit_nachtlamp.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/fatboy_edison_the_petit_nachtlamp.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/fred_cool_shooter_ijsglaasjes.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14100,
+		"inputAbbreviatedPath": "\/images\/producten\/fred_cool_shooter_ijsglaasjes.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/fred_cool_shooter_ijsglaasjes.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/fred_mr_tea_theefilter.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12112,
+		"inputAbbreviatedPath": "\/images\/producten\/fred_mr_tea_theefilter.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/fred_mr_tea_theefilter.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/garmin_edge-FR.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/producten\/garmin_edge-FR.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/garmin_edge-FR.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/garmin_edge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/producten\/garmin_edge.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/garmin_edge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/garmin_edge_touring.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36389,
+		"inputAbbreviatedPath": "\/images\/producten\/garmin_edge_touring.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/garmin_edge_touring.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/images\/producten\/garmin_oregon_600_outdoorgps.jpg": {
 		"fileType": 16384,
@@ -2318,6 +2593,17 @@
 		"initialSize": 20844,
 		"inputAbbreviatedPath": "\/images\/producten\/gopro_hero4_silver.jpg",
 		"outputAbbreviatedPath": "\/images\/producten\/gopro_hero4_silver.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/jack_jones_brother_sneaker.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13695,
+		"inputAbbreviatedPath": "\/images\/producten\/jack_jones_brother_sneaker.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/jack_jones_brother_sneaker.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2355,11 +2641,99 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/producten\/kikkerland_retrowekker.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20530,
+		"inputAbbreviatedPath": "\/images\/producten\/kikkerland_retrowekker.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/kikkerland_retrowekker.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/kikkerland_woodlands_morph_mug.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25952,
+		"inputAbbreviatedPath": "\/images\/producten\/kikkerland_woodlands_morph_mug.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/kikkerland_woodlands_morph_mug.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/king_louie_jurk_party.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47830,
+		"inputAbbreviatedPath": "\/images\/producten\/king_louie_jurk_party.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/king_louie_jurk_party.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/knot_so_bad_pyjama.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67414,
+		"inputAbbreviatedPath": "\/images\/producten\/knot_so_bad_pyjama.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/knot_so_bad_pyjama.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/komono_magnus_horloge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15463,
+		"inputAbbreviatedPath": "\/images\/producten\/komono_magnus_horloge.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/komono_magnus_horloge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/komono_moneypenny_horloge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24762,
+		"inputAbbreviatedPath": "\/images\/producten\/komono_moneypenny_horloge.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/komono_moneypenny_horloge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/laimbock_catania_handschoen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16831,
+		"inputAbbreviatedPath": "\/images\/producten\/laimbock_catania_handschoen.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/laimbock_catania_handschoen.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/laimbock_dots_handschoen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19745,
+		"inputAbbreviatedPath": "\/images\/producten\/laimbock_dots_handschoen.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/laimbock_dots_handschoen.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/producten\/leatherman_skeletool_multitool.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 24435,
+		"initialSize": 17754,
 		"inputAbbreviatedPath": "\/images\/producten\/leatherman_skeletool_multitool.jpg",
 		"outputAbbreviatedPath": "\/images\/producten\/leatherman_skeletool_multitool.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2370,7 +2744,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 15740,
+		"initialSize": 14112,
 		"inputAbbreviatedPath": "\/images\/producten\/ledlenser_seo3_hoofdlamp.jpg",
 		"outputAbbreviatedPath": "\/images\/producten\/ledlenser_seo3_hoofdlamp.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2388,6 +2762,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/producten\/lezyne_ktv_voor_of_achterlicht.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33572,
+		"inputAbbreviatedPath": "\/images\/producten\/lezyne_ktv_voor_of_achterlicht.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/lezyne_ktv_voor_of_achterlicht.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/producten\/light_my_fire_fireknife_mes.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2399,6 +2784,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/producten\/mcgregor_hemd.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45557,
+		"inputAbbreviatedPath": "\/images\/producten\/mcgregor_hemd.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/mcgregor_hemd.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/monica_richards_doorstopper.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27087,
+		"inputAbbreviatedPath": "\/images\/producten\/monica_richards_doorstopper.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/monica_richards_doorstopper.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/producten\/moonboot_assortiment.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2406,6 +2813,39 @@
 		"initialSize": 30819,
 		"inputAbbreviatedPath": "\/images\/producten\/moonboot_assortiment.jpg",
 		"outputAbbreviatedPath": "\/images\/producten\/moonboot_assortiment.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/national_geo_wereldbol.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33825,
+		"inputAbbreviatedPath": "\/images\/producten\/national_geo_wereldbol.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/national_geo_wereldbol.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/northwave_celsius_fietsschoen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22238,
+		"inputAbbreviatedPath": "\/images\/producten\/northwave_celsius_fietsschoen.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/northwave_celsius_fietsschoen.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/olang_sneeuwlaarsjes.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67994,
+		"inputAbbreviatedPath": "\/images\/producten\/olang_sneeuwlaarsjes.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/olang_sneeuwlaarsjes.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2443,6 +2883,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/producten\/qualy_my_deer_tray_small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21709,
+		"inputAbbreviatedPath": "\/images\/producten\/qualy_my_deer_tray_small.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/qualy_my_deer_tray_small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/producten\/regatta_pinecrest_fleece.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2476,6 +2927,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/producten\/reusch_loano_handschoen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55558,
+		"inputAbbreviatedPath": "\/images\/producten\/reusch_loano_handschoen.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/reusch_loano_handschoen.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/producten\/reusch_snow_trail_handschoen.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2498,6 +2960,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/producten\/sealskinz_extra_cold_handschoen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10203,
+		"inputAbbreviatedPath": "\/images\/producten\/sealskinz_extra_cold_handschoen.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/sealskinz_extra_cold_handschoen.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/producten\/sinner_radius_skimasker.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2505,6 +2978,17 @@
 		"initialSize": 7567,
 		"inputAbbreviatedPath": "\/images\/producten\/sinner_radius_skimasker.jpg",
 		"outputAbbreviatedPath": "\/images\/producten\/sinner_radius_skimasker.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/sirius_bolette_verlichting.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19512,
+		"inputAbbreviatedPath": "\/images\/producten\/sirius_bolette_verlichting.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/sirius_bolette_verlichting.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2524,7 +3008,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 49200,
+		"initialSize": 11374,
 		"inputAbbreviatedPath": "\/images\/producten\/stetson_madison_pet.jpg",
 		"outputAbbreviatedPath": "\/images\/producten\/stetson_madison_pet.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2542,13 +3026,35 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/producten\/superdry_sport_boxer.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24893,
+		"inputAbbreviatedPath": "\/images\/producten\/superdry_sport_boxer.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/superdry_sport_boxer.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/producten\/suunto_ambit_gps_horloge.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 11147,
+		"initialSize": 9906,
 		"inputAbbreviatedPath": "\/images\/producten\/suunto_ambit_gps_horloge.jpg",
 		"outputAbbreviatedPath": "\/images\/producten\/suunto_ambit_gps_horloge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/tacx_flow_T2200_fietstrainer.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24995,
+		"inputAbbreviatedPath": "\/images\/producten\/tacx_flow_T2200_fietstrainer.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/tacx_flow_T2200_fietstrainer.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2560,6 +3066,28 @@
 		"initialSize": 23270,
 		"inputAbbreviatedPath": "\/images\/producten\/the_north_face_longhaul.jpg",
 		"outputAbbreviatedPath": "\/images\/producten\/the_north_face_longhaul.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/thule_euroclassic_fietsdrager.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12918,
+		"inputAbbreviatedPath": "\/images\/producten\/thule_euroclassic_fietsdrager.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/thule_euroclassic_fietsdrager.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/tim_krabbe_de_renner.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/producten\/tim_krabbe_de_renner.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/tim_krabbe_de_renner.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2586,24 +3114,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/producten\/xtorm_power_bank_trip_9000_oplader.jpg": {
+	"\/images\/producten\/tsl_weez_slede.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 19044,
-		"inputAbbreviatedPath": "\/images\/producten\/xtorm_power_bank_trip_9000_oplader.jpg",
-		"outputAbbreviatedPath": "\/images\/producten\/xtorm_power_bank_trip_9000_oplader.jpg",
+		"initialSize": 66970,
+		"inputAbbreviatedPath": "\/images\/producten\/tsl_weez_slede.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/tsl_weez_slede.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/producten\/zippo_handwarmer.jpg": {
+	"\/images\/producten\/xtorm_power_bank_trip_9000_oplader.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 11694,
-		"inputAbbreviatedPath": "\/images\/producten\/zippo_handwarmer.jpg",
-		"outputAbbreviatedPath": "\/images\/producten\/zippo_handwarmer.jpg",
+		"initialSize": 10672,
+		"inputAbbreviatedPath": "\/images\/producten\/xtorm_power_bank_trip_9000_oplader.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/xtorm_power_bank_trip_9000_oplader.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2799,6 +3327,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/stylesheets\/css\/lp_folder_1412.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/css\/lp_folder_1412.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/stylesheets\/scss\/lp_folder_1412.scss": {
 		"createSourceMap": 0,
