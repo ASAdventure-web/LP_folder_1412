@@ -2234,6 +2234,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/producten\/beardo_original_beardo_muts.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18349,
+		"inputAbbreviatedPath": "\/images\/producten\/beardo_original_beardo_muts.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/beardo_original_beardo_muts.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/producten\/bridgedale_merino_hiker_kous.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
