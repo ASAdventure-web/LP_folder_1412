@@ -2205,7 +2205,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 13141,
+		"initialSize": 10414,
 		"inputAbbreviatedPath": "\/images\/producten\/barts_fur_earmuffs_oorwarmers.jpg",
 		"outputAbbreviatedPath": "\/images\/producten\/barts_fur_earmuffs_oorwarmers.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2736,6 +2736,17 @@
 		"initialSize": 17754,
 		"inputAbbreviatedPath": "\/images\/producten\/leatherman_skeletool_multitool.jpg",
 		"outputAbbreviatedPath": "\/images\/producten\/leatherman_skeletool_multitool.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/led_lenser_staaflamp.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8261,
+		"inputAbbreviatedPath": "\/images\/producten\/led_lenser_staaflamp.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/led_lenser_staaflamp.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
