@@ -2579,7 +2579,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 28925,
+		"initialSize": 15796,
 		"inputAbbreviatedPath": "\/images\/producten\/gentlemens_hardware_shoe_shine_kit.jpg",
 		"outputAbbreviatedPath": "\/images\/producten\/gentlemens_hardware_shoe_shine_kit.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -3132,6 +3132,17 @@
 		"initialSize": 10672,
 		"inputAbbreviatedPath": "\/images\/producten\/xtorm_power_bank_trip_9000_oplader.jpg",
 		"outputAbbreviatedPath": "\/images\/producten\/xtorm_power_bank_trip_9000_oplader.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/zippo_handwarmer.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11612,
+		"inputAbbreviatedPath": "\/images\/producten\/zippo_handwarmer.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/zippo_handwarmer.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
