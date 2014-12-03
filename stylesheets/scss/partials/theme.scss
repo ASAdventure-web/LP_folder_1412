@@ -374,22 +374,22 @@ a{
 			line-height: 3em;
 		}
 	}
-}
 
-.navFixFr{
-	font-size: 95%;
+  .navFixFr{
+    font-size: 90%;
 
-	@media only screen and(max-width: 1199px){
-		font-size: 83%;
-	}
+    @media only screen and(max-width: 1199px){
+      font-size: 83%;
+    }
 
-	@media only screen and(max-width: 979px){
-		font-size: 79%;
-	}
+    @media only screen and(max-width: 979px){
+      font-size: 79%;
+    }
 
-	@media only screen and(max-width: 979px){
-		font-size: 79%;
-	}
+    @media only screen and(max-width: 979px){
+      font-size: 79%;
+    }
+  }
 }
 
 .dropshadow{
@@ -634,6 +634,10 @@ span.green{
 		font-weight: bold;
     line-height: 1em;
     margin-bottom: 0;
+
+    &.fr-fix{
+      font-size: .8em;
+    }
 
 		@media only screen and(max-width: $breakPoint2){
 			font-size: 1.3em;
