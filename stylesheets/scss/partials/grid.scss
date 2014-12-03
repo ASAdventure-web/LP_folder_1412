@@ -133,6 +133,10 @@ html, body{
 	margin-bottom: $gutter;
 	width: percentage( colWidth($numCols, $numGutters, $gutter, $maxWidth) / $maxWidth);
 
+	@media only screen and(max-width: 1199px) {
+		margin-bottom: 24px;
+	}
+
 	article, video{
 		float: left;
 		//height: percentage(($oneRow - $captionHeight) / $oneRow);
@@ -164,12 +168,17 @@ html, body{
 		float: left;
 		//height: $oneRow;
 		max-width: $fullWidth;
+
+		@media only screen and(max-width: 1199px) {
+	    height: auto;
+	  }
 	}
 
 	&.twoRow{
 		height: $twoRow;
-		.lazy{
-			//height: $twoRow;
+		
+		@media only screen and(max-width: 1199px) {
+			height: 534px;
 		}
 	}
 
@@ -177,9 +186,9 @@ html, body{
 		margin-left: 0;
 	}
 
-	// @media only screen and(max-width: $breakPoint1){
-	// 	width: percentage( colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint1) / $breakPoint1);
-	// }
+	@media only screen and(max-width: $breakPoint1){
+		width: percentage( colWidth(($numCols), ($numGutters), 24px, $breakPoint1) / $breakPoint1);
+	}
 
 	@media only screen and(max-width: $breakPoint2){
 		width: percentage( colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint2) / $breakPoint2);
@@ -218,6 +227,10 @@ html, body{
 	height: $captionHeight;
 	padding: 0 .5em;
 	width: 100%;
+
+	@media only screen and(max-width: 1199px) {
+		height: 48px;
+	}
 
 	&.hasDescription{
 		height: $descriptionHeight;

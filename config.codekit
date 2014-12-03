@@ -1327,6 +1327,262 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.autoload.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.autoload.js",
+		"outputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/min\/jquery.lazyloadxt.autoload-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.autoload.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.autoload.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/min\/jquery.lazyloadxt.autoload.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.bg.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.bg.js",
+		"outputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/min\/jquery.lazyloadxt.bg-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.bg.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.bg.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/min\/jquery.lazyloadxt.bg.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.extra.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.extra.js",
+		"outputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/min\/jquery.lazyloadxt.extra-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.extra.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.extra.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/min\/jquery.lazyloadxt.extra.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.fadein.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.fadein.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.fadein.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.fadein.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.js",
+		"outputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/min\/jquery.lazyloadxt-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/min\/jquery.lazyloadxt.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.picture.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.picture.js",
+		"outputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/min\/jquery.lazyloadxt.picture-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.picture.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.picture.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/min\/jquery.lazyloadxt.picture.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.print.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.print.js",
+		"outputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/min\/jquery.lazyloadxt.print-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.print.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.print.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/min\/jquery.lazyloadxt.print.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.script.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.script.js",
+		"outputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/min\/jquery.lazyloadxt.script-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.script.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.script.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/min\/jquery.lazyloadxt.script.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.spinner.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.spinner.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.spinner.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.spinner.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.srcset.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.srcset.js",
+		"outputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/min\/jquery.lazyloadxt.srcset-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.srcset.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.srcset.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/min\/jquery.lazyloadxt.srcset.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.video.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.video.js",
+		"outputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/min\/jquery.lazyloadxt.video-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.video.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.video.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/min\/jquery.lazyloadxt.video.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.widget.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.widget.js",
+		"outputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/min\/jquery.lazyloadxt.widget-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.widget.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/jquery.lazyloadxt.widget.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/lazyloadxt\/dist\/min\/jquery.lazyloadxt.widget.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/bower_components\/matches-selector\/matches-selector.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -3381,15 +3637,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index_en.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/index_fr.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index_fr.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
