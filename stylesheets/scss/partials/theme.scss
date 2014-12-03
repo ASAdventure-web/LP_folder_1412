@@ -162,6 +162,11 @@ a{
                   0 0 30px rgba(0,0,0,0.9);
     width: 537px;
     z-index: 15;
+
+    p{
+      font-size: 45px;
+      line-height: 50px;
+    }
   }
 
   .animated-area{
@@ -417,7 +422,7 @@ a{
 .product img{
 	box-shadow: 0 1px 0 #e7e7e7;
 	box-shadow: 0 1px 0 rgba(91,53,21,0.1);
-	// height: auto;
+	height: inherit !important;
 	width: 100%;
 }
 
@@ -709,7 +714,8 @@ span.green{
 		border-top: 1px solid lighten($darkGray, 50%);
 		color: $darkGray;
 		font-family: $fontstack1;
-		font-size: .7em;
+		font-size: .7em !important;
+    line-height: 1.4em !important;
 
 		@media only screen and(max-width: 979px){
 			font-size: .8em;
