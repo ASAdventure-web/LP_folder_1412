@@ -143,6 +143,7 @@ a{
     position: absolute;
       bottom: -70px;
       right: -70px;
+    visibility: visible !important;
     width: 244px;
     z-index: 20;
   }
@@ -270,6 +271,7 @@ a{
 
 	ul{
 		padding: 0;
+    margin: 0;
 	}
 
 	li{
@@ -422,8 +424,39 @@ a{
 .product img{
 	box-shadow: 0 1px 0 #e7e7e7;
 	box-shadow: 0 1px 0 rgba(91,53,21,0.1);
-	height: inherit !important;
 	width: 100%;
+
+  &.lazy[height="630"]{
+    height: 630px !important;
+  }
+
+  &.lazy[height="570"]{
+    height: 570px !important;
+  }
+
+  &.lazy[height="490"]{
+    height: 490px !important;
+  }
+
+  &.lazy[height="300"]{
+    height: 300px !important;
+  }
+
+  &.lazy[height="240"]{
+    height: 240px !important;
+  }
+
+  &.lazy[height="160"]{
+    height: 160px !important;
+  }
+
+  &.lazy[width="270"]{
+    width: 270px !important;
+  }
+
+  &.lazy[width="570"]{
+    width: 570px !important;
+  }
 }
 
 video{
