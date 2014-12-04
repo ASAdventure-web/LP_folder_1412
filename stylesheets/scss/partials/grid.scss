@@ -140,16 +140,17 @@ html, body{
 	article, video{
 		float: left;
 		//height: percentage(($oneRow - $captionHeight) / $oneRow);
-		width: 100%;
+		width: 100% !important;
+	}
+
+	video{
+		@media only screen and(max-width: 1199px) {
+			height: 241px !important;
+		}
 	}
 
 	.video, .sfeer{
 		position: relative;
-
-		&.video{
-			height: 300px;
-			width: 570px;
-		}
 	}
 
 	img{
@@ -170,7 +171,7 @@ html, body{
 		max-width: $fullWidth;
 
 		@media only screen and(max-width: 1199px) {
-	    height: auto;
+	    height: auto !important;
 	  }
 	}
 
@@ -178,7 +179,7 @@ html, body{
 		height: $twoRow;
 		
 		@media only screen and(max-width: 1199px) {
-			height: 534px;
+			height: 510px;
 		}
 	}
 
@@ -229,11 +230,15 @@ html, body{
 	width: 100%;
 
 	@media only screen and(max-width: 1199px) {
-		height: 48px;
+		height: 49px;
 	}
 
 	&.hasDescription{
 		height: $descriptionHeight;
+
+		@media only screen and(max-width: 1199px) {
+			height: 110px;
+		}
 	}
 
 	.title-block{
