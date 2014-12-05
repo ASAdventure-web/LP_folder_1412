@@ -3014,6 +3014,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/producten\/cmp_knitwear_cardigan_women.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17912,
+		"inputAbbreviatedPath": "\/images\/producten\/cmp_knitwear_cardigan_women.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/cmp_knitwear_cardigan_women.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/producten\/cmp_thermisch_ondergoed.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4455,6 +4466,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/ribbon-top-left-FR.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13298,
+		"inputAbbreviatedPath": "\/images\/ribbon-top-left-FR.png",
+		"outputAbbreviatedPath": "\/images\/ribbon-top-left-FR.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ribbon-top-left.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4704,7 +4726,7 @@
 		},
 	"\/javascript\/video.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/javascript\/video.js",
 		"outputAbbreviatedPath": "\/javascript\/min\/video-min.js",
@@ -4810,20 +4832,14 @@
 	"\/javascript\/config.js": [
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/javascript\/video.js",
+			"linkedFileAbbreviatedPath": "\/javascript\/lazy_load.js",
 			"position": 0,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/javascript\/lazy_load.js",
-			"position": 1,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/javascript\/filtering.js",
-			"position": 2,
+			"position": 1,
 			"type": 1
 			}
 		]
