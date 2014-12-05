@@ -3003,13 +3003,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/producten\/cmp_knitwear_cardigan_women.jpg": {
+	"\/images\/producten\/cmp_knitwear_cardigan_men.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 12475,
-		"inputAbbreviatedPath": "\/images\/producten\/cmp_knitwear_cardigan_women.jpg",
-		"outputAbbreviatedPath": "\/images\/producten\/cmp_knitwear_cardigan_women.jpg",
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/producten\/cmp_knitwear_cardigan_men.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/cmp_knitwear_cardigan_men.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
