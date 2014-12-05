@@ -1,0 +1,7 @@
+// CODEKIT
+config.codekit
+**/.codekit-cache/*
+
+// SASS-CACHE
+**/.sass-chache/*
+
