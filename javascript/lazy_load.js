@@ -8,7 +8,7 @@
 $(function() {
   $('img.lazy').lazyload({
     //effect: 'fadeIn',
-    threshold : 100,
+    threshold : 250,
     failure_limit : 3,
     //skip_invisible : false,
     load: function() {
