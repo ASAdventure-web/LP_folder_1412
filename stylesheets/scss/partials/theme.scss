@@ -30,17 +30,11 @@ $fontstack2: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucid
 
 @keyframes letItSnow1{
   0%    {top: 0px;}
-  // 25%   {left: 10px;}
-  // 50%   {left: 0;}
-  // 75%   {right: 10px;}
   100%  {top: 380px; left: 0;}
 }
 
 @keyframes letItSnow2{
   0%    {top: -380px;}
-  // 25%   {left: 10px;}
-  // 50%   {left: 0;}
-  // 75%   {right: 10px;}
   100%  {top: 0px; left: 0;}
 }
 
@@ -116,8 +110,13 @@ a{
     height: 337px;
   }
 
+  @media only screen and(max-width: 979px) {
+    height: 258px;
+  }
+
   &:before{
-    background: url(http://static.asadventure.com/includes/landingpage/folder/folder_december/images/ribbon-top-left.png);
+    background: url(http://static.asadventure.com/includes/landingpage/folder/folder_december/images/ribbon-top-left.png) no-repeat;
+    background-size: cover;
     content: "";
     display: block;
     height: 246px;
@@ -126,10 +125,16 @@ a{
       left: -60px;
     width: 246px;
     z-index: 20;
+
+    @media only screen and(max-width: 979px) {
+      height: 217px;
+      width: 186px;
+    }
   }
 
   &:after{
-    background: url(http://static.asadventure.com/includes/landingpage/folder/folder_december/images/ribbon-bottom-right.png);
+    background: url(http://static.asadventure.com/includes/landingpage/folder/folder_december/images/ribbon-bottom-right.png) no-repeat;
+    background-size: cover;
     content: "";
     display: block;
     height: 245px;
@@ -139,10 +144,16 @@ a{
     visibility: visible !important;
     width: 244px;
     z-index: 20;
+
+    @media only screen and(max-width: 979px) {
+      height: 220px;
+      width: 219px;
+    }
   }
 
   .christmas-special{
-    background: url(http://static.asadventure.com/includes/landingpage/folder/folder_december/images/christmas-special.png);
+    background: url(http://static.asadventure.com/includes/landingpage/folder/folder_december/images/christmas-special.png) no-repeat;
+    background-size: cover;
     color: #ffffff;
     font-size: 45px;
     height: 240px;
@@ -157,14 +168,25 @@ a{
     width: 537px;
     z-index: 15;
 
-    p{
-      font-size: 45px;
-      line-height: 50px;
-    }
-
     @media only screen and(max-width: 1199px) {
       top: 50px;
       left: 60px;
+    }
+
+    @media only screen and(max-width: 979px) {
+      height: 170px;
+      padding: 55px 13px 0;
+      width: 400px;
+    }
+
+    p{
+      font-size: 45px;
+      line-height: 50px;
+
+      @media only screen and(max-width: 979px) {
+        font-size: 35px;
+        line-height: 40px;
+      }
     }
   }
 
@@ -319,6 +341,10 @@ a{
 			position: absolute;
 				top: 35%;
 				right: 0;
+
+      @media only screen and(max-width: 979px){
+        top: 52%;
+      }
 
 			@media only screen and(max-width: 767px){
 				display: none;
@@ -737,8 +763,8 @@ span.green{
     line-height: 1.4em !important;
 
 		@media only screen and(max-width: 979px){
-			font-size: .8em;
-			line-height: 1.3em;
+			font-size: .8em !important;
+			line-height: 1.3em !important;
 		}
 
 		.end-block{

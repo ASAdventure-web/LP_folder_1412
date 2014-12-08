@@ -43,6 +43,10 @@ html, body{
 	width: $fullWidth;
 }
 
+.content_detail_campaign{
+	display: none;
+}
+
 /* =======================================
 		START NESTING 
 ======================================= */
@@ -181,6 +185,10 @@ html, body{
 		@media only screen and(max-width: 1199px) {
 			height: 510px;
 		}
+
+		@media only screen and(max-width: 979px) {
+			height: 523px;
+		}
 	}
 
 	& + .folderitem{
@@ -195,13 +203,13 @@ html, body{
 		width: percentage( colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint2) / $breakPoint2);
 	}
 
-	@media only screen and(max-width: $breakPoint3){
-		width: percentage( colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint3) / $breakPoint3);
-	}
+	// @media only screen and(max-width: $breakPoint3){
+	// 	width: percentage( colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint3) / $breakPoint3);
+	// }
 
-	@media only screen and(max-width: $mobileWidth){
-		width: percentage( colWidth(($numCols - 2), ($numGutters - 2), $gutter, $mobileWidth) / $mobileWidth);
-	}
+	// @media only screen and(max-width: $mobileWidth){
+	// 	width: percentage( colWidth(($numCols - 2), ($numGutters - 2), $gutter, $mobileWidth) / $mobileWidth);
+	// }
 }
 
 .twoCol{
@@ -211,13 +219,13 @@ html, body{
 		width: percentage( (colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint2) / $breakPoint2) * 2) + percentage($gutter / $breakPoint2);
 	}
 
-	@media only screen and(max-width: $breakPoint3){
-		width: percentage( (colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint3) / $breakPoint3) * 2) + percentage($gutter / $breakPoint3);
-	}
+	// @media only screen and(max-width: $breakPoint3){
+	// 	width: percentage( (colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint3) / $breakPoint3) * 2) + percentage($gutter / $breakPoint3);
+	// }
 
-	@media only screen and(max-width: $mobileWidth){
-		width: percentage( (colWidth(($numCols - 2), ($numGutters - 2), $gutter, $mobileWidth) / $mobileWidth) * 2) + percentage($gutter / $breakPoint3);
-	}
+	// @media only screen and(max-width: $mobileWidth){
+	// 	width: percentage( (colWidth(($numCols - 2), ($numGutters - 2), $gutter, $mobileWidth) / $mobileWidth) * 2) + percentage($gutter / $breakPoint3);
+	// }
 }
 
 // KERSTBLOK
@@ -245,7 +253,36 @@ html, body{
 	}
 }
 
+// IMAGES 
+
+.twoRow .hasDescription img{
+	@media only screen and(max-width: 979px) {
+		height: 407px;
+		width: 224px;
+	}
+}
+
+.twoCol .hasDescription img{
+	@media only screen and(max-width: 979px) {
+		height: 132px;
+		width: 471px;
+	}
+}
+
 // DESCRIPTION
+
+.hasDescription .description{
+	height: $descriptionHeight;
+
+	@media only screen and(max-width: 1199px) {
+		height: 110px;
+	}
+
+	@media only screen and(max-width: 979px) {
+		height: 117px;
+	}
+}
+
 .description{
 	float: left;
 	height: $captionHeight;
@@ -256,12 +293,8 @@ html, body{
 		height: 49px;
 	}
 
-	&.hasDescription{
-		height: $descriptionHeight;
-
-		@media only screen and(max-width: 1199px) {
-			height: 110px;
-		}
+	@media only screen and(max-width: 1199px) {
+		height: 50px;
 	}
 
 	.title-block{
