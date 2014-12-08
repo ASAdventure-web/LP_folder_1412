@@ -1,5 +1,5 @@
 // CODEKIT
-config.codekit
+*.codekit
 **/.codekit-cache/*
 
 // SASS-CACHE
