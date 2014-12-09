@@ -161,6 +161,11 @@ html, body{
 		position: relative;
 	}
 
+	.video, iframe{
+		float: left;
+		//height: 300px !important;
+	}
+
 	img{
 		//height: auto;
 		width: 100%;
