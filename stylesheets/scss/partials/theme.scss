@@ -38,11 +38,11 @@ $fontstack2: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucid
   100%  {top: 0px; left: 0;}
 }
 
-@keyframes animatedLight{
-  0%    {opacity: .6;}
-  50%   {opacity: 1;}
-  100%  {opacity: .6;}
-}
+// @keyframes animatedLight{
+//   0%    {opacity: .6;}
+//   50%   {opacity: 1;}
+//   100%  {opacity: .6;}
+// }
 
 //GENERAL
 body{
@@ -97,7 +97,7 @@ a{
 
 // FOLDERHEADER
 .folderHeader, .folderHeader-FR{
-  background: url(http://static.asadventure.com/includes/landingpage/folder/folder_december/images/header.jpg) no-repeat right;
+  background: url(http://static.asadventure.com/includes/landingpage/folder/folder_december/images/header.jpg?v=1412090941) no-repeat right;
   background-size: contain;
   box-shadow: 0 20px 16px -10px rgba(0,0,0,0.5); 
   height: 420px;
@@ -206,24 +206,24 @@ a{
     }
   }
 
-  .animated-light{
-    animation: animatedLight 5s infinite;
-    animation-timing-function: linear;
-    background: url(http://static.asadventure.com/includes/landingpage/folder/folder_december/images/light.png) no-repeat center center;
-    background-size: contain;
-    height: 159px;
-    position: absolute;
-      top: 32px;
-      left: 722px;
-    width: 155px;
-    z-index: 11;
+  // .animated-light{
+  //   animation: animatedLight 5s infinite;
+  //   animation-timing-function: linear;
+  //   background: url(http://static.asadventure.com/includes/landingpage/folder/folder_december/images/light.png) no-repeat center center;
+  //   background-size: contain;
+  //   height: 159px;
+  //   position: absolute;
+  //     top: 32px;
+  //     left: 722px;
+  //   width: 155px;
+  //   z-index: 11;
 
-    @media only screen and(max-width: 1199px) {
-      height: 128px;
-      top: 26px;
-      left: 562px;
-    }
-  }
+  //   @media only screen and(max-width: 1199px) {
+  //     height: 128px;
+  //     top: 26px;
+  //     left: 562px;
+  //   }
+  // }
 
   .small-snow{
     background: url(http://static.asadventure.com/includes/landingpage/folder/folder_december/images/small-snow.png) no-repeat center center;

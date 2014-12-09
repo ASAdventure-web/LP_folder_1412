@@ -11,10 +11,10 @@ $(function() {
     threshold : 250,
     failure_limit : 3,
     //skip_invisible : false,
-    load: function() {
-      imagesLoaded(container, function() {
-        msnry.layout();
-      });
-    }
+    // load: function() {
+    //   imagesLoaded(container, function() {
+    //     msnry.layout();
+    //   });
+    // }
   });
 });
