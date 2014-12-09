@@ -38,6 +38,26 @@ $fontstack2: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucid
   100%  {top: 0px; left: 0;}
 }
 
+@keyframes letItSnow1-bp1{
+  0%    {top: 0px;}
+  100%  {top: 305px; left: 0;}
+}
+
+@keyframes letItSnow2-bp1{
+  0%    {top: -305px;}
+  100%  {top: 0px; left: 0;}
+}
+
+@keyframes letItSnow1-bp2{
+  0%    {top: 0px;}
+  100%  {top: 305px; left: 0;}
+}
+
+@keyframes letItSnow2-bp2{
+  0%    {top: -305px;}
+  100%  {top: 0px; left: 0;}
+}
+
 // @keyframes animatedLight{
 //   0%    {opacity: .6;}
 //   50%   {opacity: 1;}
@@ -238,11 +258,27 @@ a{
     &.part-1{
       animation: letItSnow1 48s infinite;
       animation-timing-function: linear;
+
+      @media only screen and(max-width: 1199px) {
+        animation: letItSnow1-bp1 48s infinite;
+      }
+
+      @media only screen and(max-width: 1199px) {
+        animation: letItSnow1-bp2 48s infinite;
+      }
     }
 
     &.part-2{
       animation: letItSnow2 48s infinite;
       animation-timing-function: linear;
+
+      @media only screen and(max-width: 979px) {
+        animation: letItSnow2-bp1 48s infinite;
+      }
+
+      @media only screen and(max-width: 1199px) {
+        animation: letItSnow2-bp2 48s infinite;
+      }
     }
   }
 
@@ -259,11 +295,31 @@ a{
     &.part-1{
       animation: letItSnow1 24s infinite;
       animation-timing-function: linear;
+
+      @media only screen and(max-width: 1199px) {
+        animation: letItSnow1-bp1 24s infinite;
+        animation-timing-function: linear;
+      }
+
+      @media only screen and(max-width: 979px) {
+        animation: letItSnow1-bp2 24s infinite;
+        animation-timing-function: linear;
+      }
     }
 
     &.part-2{
       animation: letItSnow2 24s infinite;
       animation-timing-function: linear;
+
+      @media only screen and(max-width: 1199px) {
+        animation: letItSnow2-bp1 24s infinite;
+        animation-timing-function: linear;
+      }
+
+      @media only screen and(max-width: 979px) {
+        animation: letItSnow12-bp2 24s infinite;
+        animation-timing-function: linear;
+      }
     }
   }
 
@@ -460,25 +516,35 @@ a{
 // KERSTBLOK
 
 .kerstblok{
-  background: url(http://static1.asadventure.com/includes/landingpage/folder/folder_december/images/kerstblok.jpg);
+  background: url(http://static.asadventure.com/includes/landingpage/folder/folder_december/images/kerstblok.jpg) no-repeat;
+  background-size: cover;
   position: relative;
 
   .kerst-cta{
-    background: linear-gradient(top, #9F2730, darken(#9F2730, 2%));
-    border: 1px solid darken(#9F2730, 3%);
-    box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    background: #9B1D20;
+    background: linear-gradient(top, #9B1D20, #81181B);
+    border: none;
+    box-shadow: inset 1px 1px 0 rgba(255,255,255,0.3),
+                2px 2px 2px rgba(0,0,0,0.5);
     color: #ffffff;
-    font-size: 14px;
+    font-size: 13px;
+    line-height: 40px;
     position: absolute;
-      bottom: 40px;
-      left: 40px;
+      bottom: percentage(40/300);
+      left: percentage(40/270);
     text-align: left;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 
     &:after{
       content: '';
       font-family: 'FontAwesome';
+      line-height: 42px;
       float: right;
+    }
+
+    &:hover{
+      background: #81181B;
+      background: linear-gradient(bottom, #9B1D20, #81181B);
     }
   }
 }

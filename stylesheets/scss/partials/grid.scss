@@ -240,7 +240,15 @@ html, body{
 
 .kerstblok{
 	height: 300px;
-	width: 270px;
+	width: 100%;
+
+	@media only screen and(max-width: 1199px) {
+		height: 244px;
+	}
+
+	@media only screen and(max-width: 979px) {
+		height: 249px;
+	}
 
 	.kerst-cta{
 		height: 40px;
