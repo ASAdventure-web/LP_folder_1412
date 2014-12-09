@@ -436,3 +436,10 @@ html, body{
 
 /* ------------------------------------ */
 
+
+iframe .player .controls-wrapper{
+	display: none !important;
+	line-height: 0;
+	opacity: 0;
+	visibility: hidden;
+}
