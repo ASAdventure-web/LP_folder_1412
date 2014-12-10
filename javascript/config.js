@@ -13,5 +13,5 @@ function onLayout(){
   }, 600);
 }
 
-// bind event listener
+// BIND EVENT LISTENER
 msnry.on( 'layoutComplete', onLayout );
