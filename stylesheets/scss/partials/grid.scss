@@ -1,450 +1,344 @@
 // GRID
-
 // VARIABLES
-
-
 $numCols: 4;
 $numGutters: $numCols - 1;
-
 // Width in pixels
 $gutter: 30px;
 $maxWidth: 1170px;
-
 // Width in percentages
 $fullWidth: 100%;
-
 // Height in pixels
 $oneRow: 300px;
 $twoRow: $gutter + ($oneRow * 2);
 $captionHeight: 60px;
 $descriptionHeight: 140px;
-
 // Height in percentages
 $fullHeight: 100%;
-
 // FUNCTIONS
-
 // Calculating the column width
-@function colWidth($numCols, $numGutters, $gutter, $maxWidth){
-	@return ($maxWidth - ($numGutters * $gutter)) / $numCols;
+@function colWidth($numCols, $numGutters, $gutter, $maxWidth) {
+  @return ($maxWidth - ($numGutters * $gutter)) / $numCols;
 }
-
 // Breakpoints
-
 $breakPoint1: 1199px;
 $breakPoint2: 979px;
 $breakPoint3: 767px;
-
 $mobileWidth: 414px;
-
 // ACTUAL GRID
-
-html, body{
-	width: $fullWidth;
+html, body {
+  width: $fullWidth;
 }
-
-.content_detail_campaign{
-	display: none;
+.content_detail_campaign {
+  display: none;
 }
-
 /* =======================================
 		START NESTING 
 ======================================= */
 
-#folderWrapper{
-	//margin: -30px auto 0;
-	margin: 10px auto 0;
-	max-width: $maxWidth;
-	padding-bottom: 50px;
-	width: $fullWidth;
-
-	@media only screen and(max-width: $breakPoint2){
-		width: 99%;
-	}
-
-/* ------------------------------------ */
-
-.clearfix:after{
-	clear: both;
-	content:"";
-	display: table;
-}
-
-.gridSizer{
-	width: percentage((colWidth($numCols, $numGutters, $gutter, $maxWidth) / $maxWidth));
-
-	// @media only screen and(max-width: $breakPoint1){
-	// 	width: percentage( colWidth(($numCols), ($numGutters), $gutter, $breakPoint1) / $breakPoint1);
-	// }
-
-	@media only screen and(max-width: $breakPoint2){
-		width: percentage( colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint2) / $breakPoint2);
-	}
-
-	@media only screen and(max-width: $breakPoint3){
-		width: percentage( colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint3) / $breakPoint3);
-	}
-
-	@media only screen and(max-width: $mobileWidth){
-		width: percentage( colWidth(($numCols - 2), ($numGutters - 2), $gutter, $mobileWidth) / $mobileWidth);
-	}
-}
-
-.gutterSizer{
-	width: percentage($gutter / $maxWidth);
-
-	// @media only screen and(max-width: $breakPoint1){
-	// 	width: percentage($gutter / $breakPoint1);
-	// }
-
-	@media only screen and(max-width: $breakPoint2){
-		width: percentage($gutter / $breakPoint2);
-	}
-
-	@media only screen and(max-width: $breakPoint3){
-		width: percentage($gutter / $breakPoint3);
-	}
-
-	@media only screen and(max-width: $mobileWidth){
-		width: percentage($gutter / $mobileWidth);
-	}
-}
-
-.folderHeader{
-	@media only screen and(max-width: $breakPoint3){
-		display: none;
-	}
-
-	#navFix{
-		position: absolute;
-		bottom: 137px;
-	}
-}
-
-.folderContent{
-	margin: 0 auto;
-	width: $fullWidth;
-}
-
-// FOLDERITEM
-
-.folderItem{
-	border-collapse: collapse;
-	display: block;
-	float: left;
-	//height: $oneRow;
-	//margin-left: percentage($gutter / $maxWidth);
-	margin-bottom: $gutter;
-	width: percentage( colWidth($numCols, $numGutters, $gutter, $maxWidth) / $maxWidth);
-
-	@media only screen and(max-width: 1199px) {
-		margin-bottom: 20px;
-	}
-
-	@media only screen and(max-width: 979px) {
-		margin-bottom: 24px;
-	}
-
-	article, video{
-		float: left;
-		//height: percentage(($oneRow - $captionHeight) / $oneRow);
-		width: 100% !important;
-	}
-
-	video{
-		@media only screen and(max-width: 1199px) {
-			height: 241px !important;
-		}
-	}
-
-	.video, .sfeer{
-		position: relative;
-	}
-
-	.video, iframe{
-		float: left;
-		//height: 300px !important;
-	}
-
-	img{
-		//height: auto;
-		width: 100%;
-	}
-
-	.product{
-		float: left;
-		//height: $fullHeight;
-		position: relative;
-		width: $fullWidth;
-	}
-
-	.lazy{
-		float: left;
-		//height: $oneRow;
-		max-width: $fullWidth;
-
-		// @media only screen and(max-width: 1199px) {
-	 //    height: auto !important;
-	 //  }
-	}
-
-	&.twoRow{
-		height: $twoRow;
-		
-		@media only screen and(max-width: 1199px) {
-			height: 508px;
-		}
-
-		@media only screen and(max-width: 979px) {
-			height: 520px;
-		}
-	}
-
-	& + .folderitem{
-		margin-left: 0;
-	}
-
-	@media only screen and(max-width: $breakPoint1){
-		width: percentage( colWidth(($numCols), ($numGutters), 24px, $breakPoint1) / $breakPoint1);
-	}
-
-	@media only screen and(max-width: $breakPoint2){
-		width: percentage( colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint2) / $breakPoint2);
-	}
-
-	// @media only screen and(max-width: $breakPoint3){
-	// 	width: percentage( colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint3) / $breakPoint3);
-	// }
-
-	// @media only screen and(max-width: $mobileWidth){
-	// 	width: percentage( colWidth(($numCols - 2), ($numGutters - 2), $gutter, $mobileWidth) / $mobileWidth);
-	// }
-}
-
-.twoCol{
-	width: percentage( (colWidth($numCols, $numGutters, $gutter, $maxWidth) * 2 + $gutter) / $maxWidth);
-
-	@media only screen and(max-width: $breakPoint1){
-		width: percentage( (colWidth(($numCols), ($numGutters), 20px, $breakPoint1) / $breakPoint1) * 2) + percentage(20px / $breakPoint1);
-	}
-
-	@media only screen and(max-width: $breakPoint2){
-		width: percentage( (colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint2) / $breakPoint2) * 2) + percentage($gutter / $breakPoint2);
-	}
-
-	// @media only screen and(max-width: $breakPoint3){
-	// 	width: percentage( (colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint3) / $breakPoint3) * 2) + percentage($gutter / $breakPoint3);
-	// }
-
-	// @media only screen and(max-width: $mobileWidth){
-	// 	width: percentage( (colWidth(($numCols - 2), ($numGutters - 2), $gutter, $mobileWidth) / $mobileWidth) * 2) + percentage($gutter / $breakPoint3);
-	// }
-}
-
-// KERSTBLOK
-
-.kerstblok{
-	height: 300px;
-	width: 100%;
-
-	@media only screen and(max-width: 1199px) {
-		height: 244px;
-	}
-
-	@media only screen and(max-width: 979px) {
-		height: 249px;
-	}
-
-	.kerst-cta{
-		height: 40px;
-		padding: 0 1em;
-		width: percentage(190/270);
-
-		&:after{
-			float: right;
-		}
-	}
-}
-
-// IMAGES
-
-.folderItem{
-
-	// 1-Row 1-Col
-	img{
-		@media only screen and(max-width: 1199px) {
-			height: 196px !important;
-			width: 221px !important;
-		}
-
-		@media only screen and(max-width: 979px) {
-			height: 198px !important;
-			width: 224px !important;
-		}
-
-		&.sfeer{
-			@media only screen and(max-width: 1199px) {
-				height: 244px !important;
-				width: 221px !important;
-			}
-
-			@media only screen and(max-width: 979px) {
-				height: 248px !important;
-				width: 224px !important;
-			}
-		}
-	}
-
-	.hasDescription img{
-		@media only screen and(max-width: 1199px) {
-			height: 134px !important;
-			width: 221px !important;
-		}
-
-		@media only screen and(max-width: 979px) {
-			height: 131px !important;
-			width: 224px !important;
-		}
-	}
-
-	// 2-Row 1-Col
-	&.twoRow img{
-		@media only screen and(max-width: 1199px) {
-			height: 463px !important;
-			width: 221px !important;
-		}
-
-		@media only screen and(max-width: 979px) {
-			height: 470px !important;
-			width: 224px !important;
-		}
-
-		&.sfeer{
-			@media only screen and(max-width: 1199px) {
-				height: 516px !important;
-				width: 221px !important;
-			}
-
-			@media only screen and(max-width: 979px) {
-				height: 523px !important;
-				width: 224px !important;
-			}	
-		}
-	}
-
-	&.twoCol img{
-		@media only screen and(max-width: 1199px) {
-			height: 196px !important;
-			width: 462px !important;
-		}
-
-		@media only screen and(max-width: 979px) {
-			height: 198px !important;
-			width: 471px !important;
-		}
-	}
-
-	// Hasdescription
-
-	&.twoRow .hasDescription img{
-		@media only screen and(max-width: 1199px) {
-			height: 398px !important;
-			width: 221px !important;
-		}
-
-		@media only screen and(max-width: 979px) {
-			height: 406px !important;
-			width: 224px !important;
-		}
-	}
-
-	&.twoCol .hasDescription img{
-		@media only screen and(max-width: 1199px) {
-			height: 132px !important;
-			width: 462px !important;
-		}
-
-		@media only screen and(max-width: 979px) {
-			height: 132px !important;
-			width: 471px !important;
-		}
-	}
-}
-
-// DESCRIPTION
-
-.description{
-	float: left;
-	height: $captionHeight;
-	padding: 0 .5em;
-	width: 100%;
-
-	@media only screen and(max-width: 1199px) {
-		height: 48px;
-	}
-
-	@media only screen and(max-width: 979px) {
-		height: 50px;
-	}
-
-	.title-block{
-		margin-bottom: .5em;
-		width: 100%;
-		
-		h3, h3 a{
-			margin: .6em 0 .4em;
-		}
-
-		h4, h4 a{
-			margin: .4em 0;
-		}
-	}
-
-	p, p a{
-		padding-top: 1em;
-		padding-bottom: 1em;
-
-		.end-block{
-			display: inline-block;
-			height: 6px;
-			position: relative;
-				top: -1px;
-				left: 4px;
-			width: 6px;
-		}
-	}
-}
-
-.hasDescription .description{
-	height: $descriptionHeight;
-
-	@media only screen and(max-width: 1199px) {
-		height: 110px;
-	}
-
-	@media only screen and(max-width: 979px) {
-		height: 117px;
-	}
-}
-
-.hidePortrait{
-	@media only screen and(max-width: 979px) {
-		display: none !important;
-	}
-}
-
-/* =======================================
+#folderWrapper {
+  //margin: -30px auto 0;
+  margin: 10px auto 0;
+  max-width: $maxWidth;
+  padding-bottom: 50px;
+  width: $fullWidth;
+  @media only screen and(max-width: $breakPoint2) {
+    width: 99%;
+  }
+  /* ------------------------------------ */
+  
+  .clearfix:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  .gridSizer {
+    width: percentage((colWidth($numCols, $numGutters, $gutter, $maxWidth) / $maxWidth));
+    // @media only screen and(max-width: $breakPoint1){
+    // 	width: percentage( colWidth(($numCols), ($numGutters), $gutter, $breakPoint1) / $breakPoint1);
+    // }
+    @media only screen and(max-width: $breakPoint2) {
+      width: percentage( colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint2) / $breakPoint2);
+    }
+    @media only screen and(max-width: $breakPoint3) {
+      width: percentage( colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint3) / $breakPoint3);
+    }
+    @media only screen and(max-width: $mobileWidth) {
+      width: percentage( colWidth(($numCols - 2), ($numGutters - 2), $gutter, $mobileWidth) / $mobileWidth);
+    }
+  }
+  .gutterSizer {
+    width: percentage($gutter / $maxWidth);
+    // @media only screen and(max-width: $breakPoint1){
+    // 	width: percentage($gutter / $breakPoint1);
+    // }
+    @media only screen and(max-width: $breakPoint2) {
+      width: percentage($gutter / $breakPoint2);
+    }
+    @media only screen and(max-width: $breakPoint3) {
+      width: percentage($gutter / $breakPoint3);
+    }
+    @media only screen and(max-width: $mobileWidth) {
+      width: percentage($gutter / $mobileWidth);
+    }
+  }
+  .folderHeader {
+    @media only screen and(max-width: $breakPoint3) {
+      display: none;
+    }
+    #navFix {
+      position: absolute;
+      bottom: 137px;
+    }
+  }
+  .folderContent {
+    margin: 0 auto;
+    width: $fullWidth;
+  }
+  // FOLDERITEM
+  .folderItem {
+    border-collapse: collapse;
+    display: block;
+    float: left;
+    //height: $oneRow;
+    //margin-left: percentage($gutter / $maxWidth);
+    margin-bottom: $gutter;
+    width: percentage( colWidth($numCols, $numGutters, $gutter, $maxWidth) / $maxWidth);
+    @media only screen and(max-width: 1199px) {
+      margin-bottom: 20px;
+    }
+    @media only screen and(max-width: 979px) {
+      margin-bottom: 24px;
+    }
+    article, video {
+      float: left;
+      width: 100% !important;
+    }
+    video {
+      @media only screen and(max-width: 1199px) {
+        height: 241px !important;
+      }
+    }
+    .video, .sfeer {
+      position: relative;
+    }
+    .video, iframe {
+      float: left;
+    }
+    img {
+      width: 100%;
+    }
+    .product {
+      float: left;
+      position: relative;
+      width: $fullWidth;
+    }
+    .lazy, .lazy-loaded {
+      float: left;
+      max-width: $fullWidth;
+    }
+    &.twoRow {
+      height: $twoRow;
+      @media only screen and(max-width: 1199px) {
+        height: 508px;
+      }
+      @media only screen and(max-width: 979px) {
+        height: 520px;
+      }
+    }
+    & + .folderitem {
+      margin-left: 0;
+    }
+    @media only screen and(max-width: $breakPoint1) {
+      width: percentage( colWidth(($numCols), ($numGutters), 24px, $breakPoint1) / $breakPoint1);
+    }
+    @media only screen and(max-width: $breakPoint2) {
+      width: percentage( colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint2) / $breakPoint2);
+    }
+    // @media only screen and(max-width: $breakPoint3){
+    // 	width: percentage( colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint3) / $breakPoint3);
+    // }
+    // @media only screen and(max-width: $mobileWidth){
+    // 	width: percentage( colWidth(($numCols - 2), ($numGutters - 2), $gutter, $mobileWidth) / $mobileWidth);
+    // }
+  }
+  .twoCol {
+    width: percentage( (colWidth($numCols, $numGutters, $gutter, $maxWidth) * 2 + $gutter) / $maxWidth);
+    @media only screen and(max-width: $breakPoint1) {
+      width: percentage( (colWidth(($numCols), ($numGutters), 20px, $breakPoint1) / $breakPoint1) * 2) + percentage(20px / $breakPoint1);
+    }
+    @media only screen and(max-width: $breakPoint2) {
+      width: percentage( (colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint2) / $breakPoint2) * 2) + percentage($gutter / $breakPoint2);
+    }
+    // @media only screen and(max-width: $breakPoint3){
+    // 	width: percentage( (colWidth(($numCols - 1), ($numGutters - 1), $gutter, $breakPoint3) / $breakPoint3) * 2) + percentage($gutter / $breakPoint3);
+    // }
+    // @media only screen and(max-width: $mobileWidth){
+    // 	width: percentage( (colWidth(($numCols - 2), ($numGutters - 2), $gutter, $mobileWidth) / $mobileWidth) * 2) + percentage($gutter / $breakPoint3);
+    // }
+  }
+  // KERSTBLOK
+  .kerstblok {
+    height: 300px;
+    width: 100%;
+    @media only screen and(max-width: 1199px) {
+      height: 244px;
+    }
+    @media only screen and(max-width: 979px) {
+      height: 249px;
+    }
+    .kerst-cta {
+      height: 40px;
+      padding: 0 1em;
+      width: percentage(190/270);
+      &:after {
+        float: right;
+      }
+    }
+  }
+  // IMAGES
+  .folderItem {
+    // 1-Row 1-Col
+    img {
+      @media only screen and(max-width: 1199px) {
+        height: 196px !important;
+        width: 221px !important;
+      }
+      @media only screen and(max-width: 979px) {
+        height: 198px !important;
+        width: 224px !important;
+      }
+      &.sfeer {
+        @media only screen and(max-width: 1199px) {
+          height: 244px !important;
+          width: 221px !important;
+        }
+        @media only screen and(max-width: 979px) {
+          height: 248px !important;
+          width: 224px !important;
+        }
+      }
+    }
+    .hasDescription img {
+      @media only screen and(max-width: 1199px) {
+        height: 134px !important;
+        width: 221px !important;
+      }
+      @media only screen and(max-width: 979px) {
+        height: 131px !important;
+        width: 224px !important;
+      }
+    }
+    // 2-Row 1-Col
+    &.twoRow img {
+      @media only screen and(max-width: 1199px) {
+        height: 463px !important;
+        width: 221px !important;
+      }
+      @media only screen and(max-width: 979px) {
+        height: 470px !important;
+        width: 224px !important;
+      }
+      &.sfeer {
+        @media only screen and(max-width: 1199px) {
+          height: 516px !important;
+          width: 221px !important;
+        }
+        @media only screen and(max-width: 979px) {
+          height: 523px !important;
+          width: 224px !important;
+        }
+      }
+    }
+    &.twoCol img {
+      @media only screen and(max-width: 1199px) {
+        height: 196px !important;
+        width: 462px !important;
+      }
+      @media only screen and(max-width: 979px) {
+        height: 198px !important;
+        width: 471px !important;
+      }
+    }
+    // Hasdescription
+    &.twoRow .hasDescription img {
+      @media only screen and(max-width: 1199px) {
+        height: 398px !important;
+        width: 221px !important;
+      }
+      @media only screen and(max-width: 979px) {
+        height: 406px !important;
+        width: 224px !important;
+      }
+    }
+    &.twoCol .hasDescription img {
+      @media only screen and(max-width: 1199px) {
+        height: 132px !important;
+        width: 462px !important;
+      }
+      @media only screen and(max-width: 979px) {
+        height: 132px !important;
+        width: 471px !important;
+      }
+    }
+  }
+  // DESCRIPTION
+  .description {
+    float: left;
+    height: $captionHeight;
+    padding: 0 .5em;
+    width: 100%;
+    @media only screen and(max-width: 1199px) {
+      height: 48px;
+    }
+    @media only screen and(max-width: 979px) {
+      height: 50px;
+    }
+    .title-block {
+      margin-bottom: .5em;
+      width: 100%;
+      h3, h3 a {
+        margin: .6em 0 .4em;
+      }
+      h4, h4 a {
+        margin: .4em 0;
+      }
+    }
+    p, p a {
+      padding-top: 1em;
+      padding-bottom: 1em;
+      .end-block {
+        display: inline-block;
+        height: 6px;
+        position: relative;
+        top: -1px;
+        left: 4px;
+        width: 6px;
+      }
+    }
+  }
+  .hasDescription .description {
+    height: $descriptionHeight;
+    @media only screen and(max-width: 1199px) {
+      height: 110px;
+    }
+    @media only screen and(max-width: 979px) {
+      height: 117px;
+    }
+  }
+  .hidePortrait {
+    @media only screen and(max-width: 979px) {
+      display: none !important;
+    }
+  }
+  /* =======================================
 		END NESTING 
 ========================================*/
-
 }
-
 /* ------------------------------------ */
 
-
-iframe .player .controls-wrapper{
-	display: none !important;
-	line-height: 0;
-	opacity: 0;
-	visibility: hidden;
+iframe .player .controls-wrapper {
+  display: none !important;
+  line-height: 0;
+  opacity: 0;
+  visibility: hidden;
 }
