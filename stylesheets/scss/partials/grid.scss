@@ -94,6 +94,24 @@ html, body {
     margin: 0 auto;
     width: $fullWidth;
   }
+
+  .overlay{
+    height: 155px;
+    overflow: hidden;
+    position: absolute;
+      top: 0;
+      left: 0;
+    width: 154px;
+    z-index: 15;
+
+    .sold-out{
+      background: url(http://static1.asadventure.com/includes/landingpage/folder/folder_december/images/sold_out.png) no-repeat;
+      background-size: contain;
+      padding-bottom: percentage(155/154);
+      width: 100%;
+    }
+  }
+
   // FOLDERITEM
   .folderItem {
     border-collapse: collapse;
@@ -102,6 +120,7 @@ html, body {
     //height: $oneRow;
     //margin-left: percentage($gutter / $maxWidth);
     margin-bottom: $gutter;
+    position: relative;
     width: percentage( colWidth($numCols, $numGutters, $gutter, $maxWidth) / $maxWidth);
     @media only screen and(max-width: 1199px) {
       margin-bottom: 20px;
